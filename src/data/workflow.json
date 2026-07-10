@@ -1,0 +1,52 @@
+[
+  {
+    "status": "IDLE",
+    "meaning": "The workflow has just been triggered (e.g., by a schedule). No work has been done yet.",
+    "action": "Delegate to MealPlanner agent to start researching."
+  },
+  {
+    "status": "NO_PLANNING_NEEDED",
+    "meaning": "The workflow has been triggered, but no meal planning is needed at this time.",
+    "action": "Inform the user that no meal planning is required."
+  },
+  {
+    "status": "MEAL_PLANNING_STARTED",
+    "meaning": "The MealPlanner agent is currently active. It is searching for restaurants and gathering menu items.",
+    "action": "Delegate to MealPlanner agent to continue planning"
+  },
+  {
+    "status": "MEAL_PLANNING_COMPLETE",
+    "meaning": "Research is finished. Options are ready.",
+    "action": "Delegate to MealChoiceVerifier agent to format/verify options."
+  },
+  {
+    "status": "MEAL_PLANNING_FAILED",
+    "meaning": "Research is finished. The session does not contain a valid list of 3 meal options.",
+    "action": "STOP Execution. Inform the user that meal planning failed."
+  },
+  {
+    "status": "AWAITING_USER_APPROVAL",
+    "meaning": "Options sent. System paused for external signal.",
+    "action": "If the user has responded, Delegate to MealChoiceVerifier agent to process the response."
+  },
+  {
+    "status": "USER_APPROVAL_RECEIVED",
+    "meaning": "User selected one or more meal options.",
+    "action": "Delegate to MealOrderExecutor agent to place the order for the selected item(s)."
+  },
+  {
+    "status": "USER_REJECTION_RECEIVED",
+    "meaning": "User rejected options and provided feedback.",
+    "action": "Delegate to MealPlanner agent to start over with user feedback in mind."
+  },
+  {
+    "status": "PLACING_ORDER",
+    "meaning": "Order successfully placed.",
+    "action": "Wait for MealOrderExecutor agent to return confirmation."
+  },
+  {
+    "status": "ORDER_CONFIRMED",
+    "meaning": "The external API has returned a success code. The meal is ordered.",
+    "action": "Inform the user that order has been placed successfully. Wish them a good meal!. End workflow."
+  }
+]
