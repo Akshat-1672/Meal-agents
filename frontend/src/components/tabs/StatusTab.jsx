@@ -28,7 +28,7 @@ const StatusTab = () => {
   const { getCurrentUserId, activeSessionId } = useUser();
   const toast = useToast();
   const sessionContext = useContext(SessionContext);
-  const { submitUserResponse } = useAutoNom();
+  const { submitUserResponse, deleteSession } = useAutoNom();
 
   // Read all state from Zustand store (no polling logic here)
   const {
@@ -51,6 +51,7 @@ const StatusTab = () => {
     setSelectedSessionForChat,
     closeModal,
     markFeedbackReceived,
+    setSessionHistory
   } = useStatusStore();
 
   const handleChatClick = (session) => {
@@ -98,6 +99,16 @@ const StatusTab = () => {
     closeModal();
   };
 
+  const handleDeleteSession = async (sessionId) => {
+    const success = await deleteSession(sessionId);
+    if (success) {
+      toast.success("Session deleted successfully");
+      setSessionHistory(sessionHistory.filter(s => s.session_id !== sessionId));
+    } else {
+      toast.error("Failed to delete session");
+    }
+  };
+
   return (
     <div className="space-y-6">
       {/* Status Card */}
@@ -124,6 +135,7 @@ const StatusTab = () => {
         sessions={sessionHistory}
         currentSessionId={activeSessionId}
         onChatClick={handleChatClick}
+        onDeleteClick={handleDeleteSession}
       />
 
       {/* Selection Modal */}

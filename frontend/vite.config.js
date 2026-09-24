@@ -6,7 +6,7 @@ export default defineConfig({
   server: {
     proxy: {
       '/api': {
-        target: 'http://127.0.0.1:8000', // Points to your FastAPI
+        target: 'http://127.0.0.1:3000', // Points to your Next.js backend
         changeOrigin: true,
       }
     }

@@ -1,0 +1,184 @@
+import fs from 'fs';
+import path from 'path';
+
+const recipes = [
+  {
+    id: "rec_001", recipe_name: "Paneer Butter Masala",
+    prompt_keywords: ["paneer", "butter", "masala", "indian", "vegetarian", "curry", "rich", "dinner", "lunch", "traditional", "north indian"],
+    prep_minutes: 30, servings: 4, difficulty: "Medium",
+    ingredients: [{ name: "Milky Mist Paneer", quantity: "200g", unit_price: 85 }, { name: "Amul Butter", quantity: "100g", unit_price: 56 }, { name: "Tomato", quantity: "500g", unit_price: 15 }],
+    instructions_url: "https://swiggy.com/instamart/recipe/rec_001"
+  },
+  {
+    id: "rec_002", recipe_name: "High-Protein Chicken Salad",
+    prompt_keywords: ["chicken", "salad", "high-protein", "protein", "healthy", "diet", "low-carb", "dinner", "lunch", "gym", "fitness", "clean"],
+    prep_minutes: 15, servings: 2, difficulty: "Easy",
+    ingredients: [{ name: "Chicken Breast Boneless", quantity: "400g", unit_price: 220 }, { name: "Lettuce", quantity: "1 head", unit_price: 40 }, { name: "Olive Oil", quantity: "1 bottle", unit_price: 250 }],
+    instructions_url: "https://swiggy.com/instamart/recipe/rec_002"
+  },
+  {
+    id: "rec_003", recipe_name: "Vegan Tofu Stir-fry",
+    prompt_keywords: ["vegan", "tofu", "stir-fry", "healthy", "dinner", "asian", "protein", "high-protein", "plant-based", "quick"],
+    prep_minutes: 20, servings: 2, difficulty: "Medium",
+    ingredients: [{ name: "Firm Tofu", quantity: "200g", unit_price: 60 }, { name: "Broccoli", quantity: "1 pc", unit_price: 30 }, { name: "Soy Sauce", quantity: "1 bottle", unit_price: 45 }],
+    instructions_url: "https://swiggy.com/instamart/recipe/rec_003"
+  },
+  {
+    id: "rec_004", recipe_name: "Quick Masala Maggi",
+    prompt_keywords: ["maggi", "quick", "snack", "noodles", "easy", "midnight", "budget", "cheap", "spicy"],
+    prep_minutes: 10, servings: 1, difficulty: "Easy",
+    ingredients: [{ name: "Maggi 2-Minute Noodles", quantity: "140g", unit_price: 28 }, { name: "Onion", quantity: "1 pc", unit_price: 5 }],
+    instructions_url: "https://swiggy.com/instamart/recipe/rec_004"
+  },
+  {
+    id: "rec_005", recipe_name: "Egg White Omelette",
+    prompt_keywords: ["egg", "omelette", "breakfast", "protein", "high-protein", "healthy", "quick", "morning", "keto"],
+    prep_minutes: 10, servings: 1, difficulty: "Easy",
+    ingredients: [{ name: "Eggs Regular", quantity: "6 pcs", unit_price: 48 }, { name: "Spinach", quantity: "1 bunch", unit_price: 15 }],
+    instructions_url: "https://swiggy.com/instamart/recipe/rec_005"
+  },
+  {
+    id: "rec_006", recipe_name: "Chicken Biryani Feast",
+    prompt_keywords: ["chicken", "biryani", "rice", "spicy", "sunday", "dinner", "feast", "party", "heavy", "indian", "mughlai"],
+    prep_minutes: 60, servings: 4, difficulty: "Hard",
+    ingredients: [{ name: "India Gate Basmati Rice", quantity: "500g", unit_price: 75 }, { name: "Chicken Curry Cut", quantity: "500g", unit_price: 160 }, { name: "Everest Biryani Masala", quantity: "50g", unit_price: 40 }],
+    instructions_url: "https://swiggy.com/instamart/recipe/rec_006"
+  },
+  {
+    id: "rec_007", recipe_name: "Comforting Dal Tadka",
+    prompt_keywords: ["dal", "lentil", "soup", "healthy", "comfort", "dinner", "vegetarian", "protein", "indian", "lunch", "rice"],
+    prep_minutes: 30, servings: 3, difficulty: "Easy",
+    ingredients: [{ name: "Toor Dal", quantity: "1kg", unit_price: 160 }, { name: "Ghee", quantity: "100ml", unit_price: 90 }, { name: "Garlic", quantity: "100g", unit_price: 25 }],
+    instructions_url: "https://swiggy.com/instamart/recipe/rec_007"
+  },
+  {
+    id: "rec_008", recipe_name: "Grilled Fish with Asparagus",
+    prompt_keywords: ["fish", "grilled", "seafood", "protein", "high-protein", "healthy", "dinner", "keto", "low-carb", "pescatarian"],
+    prep_minutes: 25, servings: 2, difficulty: "Medium",
+    ingredients: [{ name: "Fish Fillet", quantity: "300g", unit_price: 250 }, { name: "Asparagus", quantity: "1 bunch", unit_price: 120 }, { name: "Lemon", quantity: "2 pcs", unit_price: 10 }],
+    instructions_url: "https://swiggy.com/instamart/recipe/rec_008"
+  },
+  {
+    id: "rec_009", recipe_name: "Vegan Quinoa Bowl",
+    prompt_keywords: ["quinoa", "bowl", "vegan", "healthy", "diet", "lunch", "protein", "salad", "light"],
+    prep_minutes: 20, servings: 1, difficulty: "Easy",
+    ingredients: [{ name: "Quinoa", quantity: "200g", unit_price: 150 }, { name: "Avocado", quantity: "1 pc", unit_price: 80 }, { name: "Cherry Tomatoes", quantity: "200g", unit_price: 40 }],
+    instructions_url: "https://swiggy.com/instamart/recipe/rec_009"
+  },
+  {
+    id: "rec_010", recipe_name: "Punjabi Aloo Paratha",
+    prompt_keywords: ["aloo", "paratha", "breakfast", "punjabi", "potato", "heavy", "indian", "vegetarian", "comfort", "brunch"],
+    prep_minutes: 30, servings: 2, difficulty: "Medium",
+    ingredients: [{ name: "Aashirvaad Whole Wheat Atta", quantity: "5kg", unit_price: 250 }, { name: "Potato", quantity: "1kg", unit_price: 35 }, { name: "Amul Butter", quantity: "100g", unit_price: 56 }],
+    instructions_url: "https://swiggy.com/instamart/recipe/rec_010"
+  },
+  {
+    id: "rec_011", recipe_name: "Truffle Mushroom Risotto",
+    prompt_keywords: ["mushroom", "risotto", "italian", "dinner", "vegetarian", "fancy", "date", "romantic"],
+    prep_minutes: 45, servings: 2, difficulty: "Hard",
+    ingredients: [{ name: "Arborio Rice", quantity: "200g", unit_price: 180 }, { name: "Button Mushrooms", quantity: "200g", unit_price: 50 }, { name: "Parmesan Cheese", quantity: "100g", unit_price: 200 }],
+    instructions_url: "https://swiggy.com/instamart/recipe/rec_011"
+  },
+  {
+    id: "rec_012", recipe_name: "Peanut Butter Protein Shake",
+    prompt_keywords: ["peanut", "butter", "protein", "shake", "drink", "gym", "workout", "high-protein", "quick", "breakfast", "sweet"],
+    prep_minutes: 5, servings: 1, difficulty: "Easy",
+    ingredients: [{ name: "Peanut Butter", quantity: "1 jar", unit_price: 150 }, { name: "Amul Taaza Milk", quantity: "500ml", unit_price: 27 }, { name: "Whey Protein", quantity: "1 scoop", unit_price: 100 }],
+    instructions_url: "https://swiggy.com/instamart/recipe/rec_012"
+  },
+  {
+    id: "rec_013", recipe_name: "Beef Steak with Mash",
+    prompt_keywords: ["beef", "steak", "meat", "protein", "high-protein", "dinner", "heavy", "keto", "carnivore"],
+    prep_minutes: 30, servings: 1, difficulty: "Medium",
+    ingredients: [{ name: "Beef Steak", quantity: "250g", unit_price: 300 }, { name: "Potato", quantity: "1kg", unit_price: 35 }, { name: "Garlic", quantity: "100g", unit_price: 25 }],
+    instructions_url: "https://swiggy.com/instamart/recipe/rec_013"
+  },
+  {
+    id: "rec_014", recipe_name: "Punjabi Chole (Chickpea Curry)",
+    prompt_keywords: ["chickpea", "chole", "curry", "indian", "vegan", "protein", "dinner", "lunch", "spicy"],
+    prep_minutes: 40, servings: 4, difficulty: "Medium",
+    ingredients: [{ name: "Kabuli Chana", quantity: "500g", unit_price: 90 }, { name: "Onion", quantity: "1kg", unit_price: 45 }, { name: "Tomato", quantity: "1kg", unit_price: 30 }],
+    instructions_url: "https://swiggy.com/instamart/recipe/rec_014"
+  },
+  {
+    id: "rec_015", recipe_name: "Greek Yogurt Berry Parfait",
+    prompt_keywords: ["yogurt", "parfait", "breakfast", "snack", "healthy", "protein", "sweet", "berries", "dessert"],
+    prep_minutes: 10, servings: 1, difficulty: "Easy",
+    ingredients: [{ name: "Greek Yogurt", quantity: "200g", unit_price: 60 }, { name: "Granola", quantity: "100g", unit_price: 40 }, { name: "Mixed Berries", quantity: "150g", unit_price: 120 }],
+    instructions_url: "https://swiggy.com/instamart/recipe/rec_015"
+  },
+  {
+    id: "rec_016", recipe_name: "Keto Cauliflower Mac & Cheese",
+    prompt_keywords: ["keto", "mac and cheese", "cheese", "cauliflower", "low-carb", "dinner", "comfort", "vegetarian"],
+    prep_minutes: 25, servings: 2, difficulty: "Medium",
+    ingredients: [{ name: "Cauliflower", quantity: "1 head", unit_price: 40 }, { name: "Cheddar Cheese", quantity: "200g", unit_price: 150 }, { name: "Heavy Cream", quantity: "200ml", unit_price: 80 }],
+    instructions_url: "https://swiggy.com/instamart/recipe/rec_016"
+  },
+  {
+    id: "rec_017", recipe_name: "Midnight Garlic Bread",
+    prompt_keywords: ["garlic", "bread", "snack", "midnight", "quick", "cheese", "easy", "cheap"],
+    prep_minutes: 15, servings: 2, difficulty: "Easy",
+    ingredients: [{ name: "Britannia Whole Wheat Bread", quantity: "400g", unit_price: 45 }, { name: "Amul Butter", quantity: "100g", unit_price: 56 }, { name: "Garlic", quantity: "100g", unit_price: 25 }],
+    instructions_url: "https://swiggy.com/instamart/recipe/rec_017"
+  },
+  {
+    id: "rec_018", recipe_name: "Mutton Rogan Josh",
+    prompt_keywords: ["mutton", "rogan josh", "indian", "curry", "spicy", "dinner", "heavy", "meat", "protein"],
+    prep_minutes: 90, servings: 4, difficulty: "Hard",
+    ingredients: [{ name: "Mutton Curry Cut", quantity: "500g", unit_price: 550 }, { name: "MDH Kashmiri Red Chilli", quantity: "100g", unit_price: 85 }, { name: "Mustard Oil", quantity: "500ml", unit_price: 110 }],
+    instructions_url: "https://swiggy.com/instamart/recipe/rec_018"
+  },
+  {
+    id: "rec_019", recipe_name: "Fresh Caprese Salad",
+    prompt_keywords: ["salad", "caprese", "tomato", "mozzarella", "italian", "healthy", "lunch", "light", "diet", "vegetarian"],
+    prep_minutes: 10, servings: 2, difficulty: "Easy",
+    ingredients: [{ name: "Cherry Tomatoes", quantity: "250g", unit_price: 60 }, { name: "Fresh Mozzarella", quantity: "200g", unit_price: 150 }, { name: "Fresh Basil", quantity: "1 bunch", unit_price: 20 }],
+    instructions_url: "https://swiggy.com/instamart/recipe/rec_019"
+  },
+  {
+    id: "rec_020", recipe_name: "Classic Lemonade",
+    prompt_keywords: ["lemonade", "drink", "refreshing", "sweet", "summer", "quick", "vegan"],
+    prep_minutes: 5, servings: 2, difficulty: "Easy",
+    ingredients: [{ name: "Lemon", quantity: "4 pcs", unit_price: 20 }, { name: "Sugar", quantity: "500g", unit_price: 30 }, { name: "Mint Leaves", quantity: "1 bunch", unit_price: 10 }],
+    instructions_url: "https://swiggy.com/instamart/recipe/rec_020"
+  },
+  {
+    id: "rec_021", recipe_name: "Palak Paneer",
+    prompt_keywords: ["palak", "paneer", "spinach", "indian", "vegetarian", "curry", "dinner", "protein", "healthy"],
+    prep_minutes: 35, servings: 3, difficulty: "Medium",
+    ingredients: [{ name: "Spinach", quantity: "2 bunches", unit_price: 30 }, { name: "Milky Mist Paneer", quantity: "200g", unit_price: 85 }, { name: "Onion", quantity: "1kg", unit_price: 45 }],
+    instructions_url: "https://swiggy.com/instamart/recipe/rec_021"
+  },
+  {
+    id: "rec_022", recipe_name: "Avocado Toast with Egg",
+    prompt_keywords: ["avocado", "toast", "egg", "breakfast", "brunch", "healthy", "protein", "quick", "trendy"],
+    prep_minutes: 10, servings: 1, difficulty: "Easy",
+    ingredients: [{ name: "Avocado", quantity: "1 pc", unit_price: 80 }, { name: "Britannia Whole Wheat Bread", quantity: "400g", unit_price: 45 }, { name: "Eggs Regular", quantity: "6 pcs", unit_price: 48 }],
+    instructions_url: "https://swiggy.com/instamart/recipe/rec_022"
+  },
+  {
+    id: "rec_023", recipe_name: "Crispy Prawn Tempura",
+    prompt_keywords: ["prawn", "shrimp", "tempura", "japanese", "asian", "fried", "snack", "seafood", "appetizer"],
+    prep_minutes: 30, servings: 2, difficulty: "Hard",
+    ingredients: [{ name: "Prawns (Medium)", quantity: "250g", unit_price: 320 }, { name: "Tempura Flour", quantity: "200g", unit_price: 150 }, { name: "Fortune Sunflower Oil", quantity: "1L", unit_price: 120 }],
+    instructions_url: "https://swiggy.com/instamart/recipe/rec_023"
+  },
+  {
+    id: "rec_024", recipe_name: "Budget Tomato Rice",
+    prompt_keywords: ["tomato", "rice", "budget", "cheap", "south indian", "quick", "lunch", "vegan"],
+    prep_minutes: 20, servings: 2, difficulty: "Easy",
+    ingredients: [{ name: "India Gate Basmati Rice", quantity: "1kg", unit_price: 150 }, { name: "Tomato", quantity: "1kg", unit_price: 30 }, { name: "Green Chilli", quantity: "100g", unit_price: 15 }],
+    instructions_url: "https://swiggy.com/instamart/recipe/rec_024"
+  },
+  {
+    id: "rec_025", recipe_name: "Classic Cheese Pizza",
+    prompt_keywords: ["pizza", "cheese", "italian", "dinner", "party", "comfort", "vegetarian", "junk"],
+    prep_minutes: 45, servings: 3, difficulty: "Medium",
+    ingredients: [{ name: "Pizza Base", quantity: "2 pcs", unit_price: 50 }, { name: "Mozzarella Cheese", quantity: "200g", unit_price: 160 }, { name: "Pizza Sauce", quantity: "200g", unit_price: 75 }],
+    instructions_url: "https://swiggy.com/instamart/recipe/rec_025"
+  }
+];
+
+const outDir = path.join(__dirname, '../src/data/generated');
+fs.writeFileSync(path.join(outDir, 'mock-recipes.json'), JSON.stringify(recipes, null, 2));
+console.log('✅ Generated mega recipes');

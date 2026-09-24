@@ -1,4 +1,4 @@
-import { Store, DollarSign, ShoppingBag, CheckCircle2 } from 'lucide-react';
+import { Store, IndianRupee, ShoppingBag, CheckCircle2 } from 'lucide-react';
 import PropTypes from 'prop-types';
 
 const OrderConfirmationCard = ({ orderData }) => {
@@ -53,7 +53,7 @@ const OrderConfirmationCard = ({ orderData }) => {
                         )}
                       </div>
                       <div className="flex items-center gap-1 text-white font-bold">
-                        <DollarSign size={16} />
+                        <IndianRupee size={16} />
                         <span>{item.price.toFixed(2)}</span>
                       </div>
                     </div>
@@ -69,7 +69,7 @@ const OrderConfirmationCard = ({ orderData }) => {
                 <div className="flex items-center justify-between">
                   <span className="font-semibold text-white">Subtotal</span>
                   <div className="flex items-center gap-1 text-white font-semibold">
-                    <DollarSign size={16} />
+                    <IndianRupee size={16} />
                     <span>{order.sub_total.toFixed(2)}</span>
                   </div>
                 </div>
@@ -83,7 +83,7 @@ const OrderConfirmationCard = ({ orderData }) => {
               <div className="flex items-center justify-between">
                 <span className="font-bold text-white text-xl">Grand Total</span>
                 <div className="flex items-center gap-1 text-white font-bold text-2xl">
-                  <DollarSign size={24} />
+                  <IndianRupee size={24} />
                   <span>{bill.grand_total.toFixed(2)}</span>
                 </div>
               </div>

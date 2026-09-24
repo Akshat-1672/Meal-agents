@@ -3,6 +3,7 @@ import axios from 'axios';
 import { createLogger } from '../utils/logger';
 import { transformAPIUserToFrontend, transformFrontendUserToAPI } from '../utils/userTransformers';
 import { useLoadingState } from './useLoadingState';
+import { useToast } from './useToast';
 
 const logger = createLogger('useAutoNom');
 
@@ -10,6 +11,7 @@ export const useAutoNom = () => {
   const { isLoading: isProcessing, setIsLoading: setIsProcessing } = useLoadingState();
   const [eventLog, setEventLog] = useState([]);
   const [currentSessionId, setCurrentSessionId] = useState(null);
+  const toast = useToast();
 
   // Fetch all users
   const fetchUsers = useCallback(async () => {
@@ -46,6 +48,17 @@ export const useAutoNom = () => {
     } catch (error) {
       logger.error('Error fetching user sessions:', error);
       return null;
+    }
+  }, []);
+
+  // Delete a session
+  const deleteSession = useCallback(async (sessionId) => {
+    try {
+      await axios.delete(`/api/sessions/${sessionId}`);
+      return true;
+    } catch (error) {
+      logger.error('Error deleting session:', error);
+      return false;
     }
   }, []);
 
@@ -104,6 +117,7 @@ export const useAutoNom = () => {
       return response.data;
     } catch (error) {
       logger.error('Error submitting user response:', error);
+      toast.error('Failed to submit response. Please try again.', 5000);
       throw error;
     }
   }, []);
@@ -163,6 +177,7 @@ export const useAutoNom = () => {
     } catch (error) {
       logger.error('Error in triggerPlan:', error);
       setIsProcessing(false);
+      toast.error('Failed to start meal planning. Please try again.', 5000);
       if (onError) onError(error);
     }
   }, [setIsProcessing]);
@@ -178,6 +193,7 @@ export const useAutoNom = () => {
     fetchSessionState,
     submitUserResponse,
     triggerPlan,
+    deleteSession,
     setEventLog,
     setCurrentSessionId
   };

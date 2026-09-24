@@ -8,8 +8,10 @@ import {
   getWorkflowStatus,
   getMealChoiceVerificationMessage,
   getMealChoices,
-  getOrderConfirmationData
+  getOrderConfirmationData,
+  getErrorMessage
 } from '../utils/sessionAccessors';
+import { useToast } from '../hooks/useToast';
 
 const logger = createLogger('SessionProvider');
 
@@ -35,6 +37,8 @@ export const SessionProvider = ({ children }) => {
     setCurrentSessionState,
     resetForNewSession,
   } = useStatusStore();
+  
+  const toast = useToast();
 
   const pollIntervalRef = useRef(null);
   const historyPollIntervalRef = useRef(null);
@@ -61,12 +65,20 @@ export const SessionProvider = ({ children }) => {
           
           // Auto-set active session if none is currently set
           if (!activeSessionId) {
-            // Find the latest session that's not in a terminal state (ORDER_CONFIRMED or NO_PLANNING_NEEDED)
+            const now = new Date();
+            // Find the latest session that's not in a terminal state (ORDER_CONFIRMED, NO_PLANNING_NEEDED, or ERROR)
+            // AND not stale (older than 5 minutes since last update, indicating a crashed backend process)
             const latestActiveSession = sortedSessions.find(
               session => {
                 const status = getWorkflowStatus(session);
-                return status !== WORKFLOW_STATUS.ORDER_CONFIRMED && 
-                       status !== WORKFLOW_STATUS.NO_PLANNING_NEEDED;
+                const isTerminal = status === WORKFLOW_STATUS.ORDER_CONFIRMED || 
+                                   status === WORKFLOW_STATUS.NO_PLANNING_NEEDED ||
+                                   status === WORKFLOW_STATUS.ERROR;
+                
+                const updateTime = new Date(session.update_time || session.create_time);
+                const isStale = (now - updateTime) > 5 * 60 * 1000; // 5 minutes
+                
+                return !isTerminal && !isStale;
               }
             );
             
@@ -226,6 +238,22 @@ export const SessionProvider = ({ children }) => {
             }
             
             // Clear active session so history polling can resume
+            setActiveSessionId(null);
+          } else if (workflowStatus === WORKFLOW_STATUS.ERROR) {
+            // Stop session state polling - an error occurred
+            logger.log('Error state reached, stopping session state polling');
+            if (pollIntervalRef.current) {
+              clearInterval(pollIntervalRef.current);
+              pollIntervalRef.current = null;
+            }
+            
+            // Show error toast
+            const errorMessage = getErrorMessage(sessionState) || 'An unexpected error occurred during meal planning.';
+            if (previousStatus !== WORKFLOW_STATUS.ERROR) {
+              toast.error(errorMessage, 5000); // Changed to auto-remove after 5s
+            }
+            
+            // Clear active session
             setActiveSessionId(null);
           }
           

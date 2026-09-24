@@ -6,8 +6,9 @@ import Header from './components/Header';
 import ProfileTab from './components/tabs/ProfileTab';
 import MealsTab from './components/tabs/MealsTab';
 import StatusTab from './components/tabs/StatusTab';
+import OrdersTab from './components/tabs/OrdersTab';
 import ToastContainer from './components/common/ToastContainer';
-import { UserCog, Utensils, ListChecks } from 'lucide-react';
+import { UserCog, Utensils, ListChecks, Receipt } from 'lucide-react';
 import { BUTTON_STYLES } from './utils/styleClasses';
 import './App.css';
 
@@ -18,12 +19,13 @@ function App() {
     { id: 'profile', label: 'Profile', icon: UserCog },
     { id: 'meals', label: 'My Meals', icon: Utensils },
     { id: 'status', label: 'Status', icon: ListChecks },
+    { id: 'orders', label: 'Orders', icon: Receipt },
   ];
 
   return (
-    <UserProvider>
-      <SessionProvider>
-        <ToastProvider>
+    <ToastProvider>
+      <UserProvider>
+        <SessionProvider>
           <div className="bg-slate-900 text-slate-200 font-sans min-h-screen selection:bg-primary-500 selection:text-white">
             <Header />
             
@@ -50,14 +52,15 @@ function App() {
                 {activeTab === 'profile' && <ProfileTab />}
                 {activeTab === 'meals' && <MealsTab setActiveTab={setActiveTab} />}
                 {activeTab === 'status' && <StatusTab />}
+                {activeTab === 'orders' && <OrdersTab />}
               </div>
             </main>
             
             <ToastContainer />
           </div>
-        </ToastProvider>
-      </SessionProvider>
-    </UserProvider>
+        </SessionProvider>
+      </UserProvider>
+    </ToastProvider>
   );
 }
 

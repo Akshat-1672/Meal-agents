@@ -1,15 +1,17 @@
 import { useState } from 'react';
-import { 
-  CheckCircle, 
-  Clock, 
-  XCircle, 
-  AlertCircle, 
-  PlayCircle, 
+import {
+  CheckCircle,
+  Clock,
+  XCircle,
+  AlertCircle,
+  PlayCircle,
   MessageSquare,
   ChevronDown,
   ChevronUp,
   ChevronLeft,
-  ChevronRight
+  ChevronRight,
+  Trash2,
+  Filter
 } from 'lucide-react';
 import PropTypes from 'prop-types';
 import { WORKFLOW_STATUS, getStatusDisplay } from '../../utils/constants';
@@ -102,17 +104,17 @@ const getStatusVisuals = (workflowStatus) => {
   };
 };
 
-const SessionHistoryItem = ({ session, isActive, onChatClick }) => {
+const SessionHistoryItem = ({ session, isActive, onChatClick, onDeleteClick }) => {
   const [isExpanded, setIsExpanded] = useState(false);
   const workflowStatus = getWorkflowStatus(session);
-  
+
   // Get status text from helper
   const statusInfo = getStatusDisplay(workflowStatus);
-  
+
   // Get visual attributes
   const statusVisuals = getStatusVisuals(workflowStatus);
   const StatusIcon = statusVisuals.icon;
-  
+
   const mealType = getMealType(session);
   const createTime = getFormattedCreateTime(session);
 
@@ -147,11 +149,24 @@ const SessionHistoryItem = ({ session, isActive, onChatClick }) => {
               title="View and respond to approval request"
             >
               <MessageSquare className="text-yellow-400" size={20} />
+            </button>)}
+          {/* Delete Button */}
+          {onDeleteClick && (
+            <button
+              onClick={(e) => {
+                e.stopPropagation();
+                onDeleteClick(session.session_id);
+              }}
+              className="p-2 ml-1 text-gray-500 hover:text-red-400 hover:bg-red-500/10 rounded-lg transition-colors"
+              title="Delete session"
+            >
+              <Trash2 size={16} />
             </button>
           )}
+
           <button
             onClick={() => setIsExpanded(!isExpanded)}
-            className="p-2 hover:bg-white/5 rounded-lg transition-colors"
+            className="p-2 ml-1 hover:bg-white/5 rounded-lg transition-colors"
           >
             {isExpanded ? (
               <ChevronUp className="text-gray-400" size={20} />
@@ -166,10 +181,7 @@ const SessionHistoryItem = ({ session, isActive, onChatClick }) => {
       {isExpanded && (
         <div className="mt-4 pt-4 border-t border-white/10">
           <div className="space-y-2 text-sm">
-            <div>
-              <span className="text-gray-400">Session ID:</span>
-              <span className="text-white ml-2 font-mono text-xs">{session.session_id}</span>
-            </div>
+
             {hasUserChoice(session) && (
               <div>
                 <span className="text-gray-400">User Choice:</span>
@@ -194,11 +206,13 @@ const SessionHistoryItem = ({ session, isActive, onChatClick }) => {
 SessionHistoryItem.propTypes = {
   session: PropTypes.object.isRequired,
   isActive: PropTypes.bool,
-  onChatClick: PropTypes.func.isRequired
+  onChatClick: PropTypes.func.isRequired,
+  onDeleteClick: PropTypes.func
 };
 
-const SessionHistory = ({ sessions, currentSessionId, onChatClick }) => {
+const SessionHistory = ({ sessions, currentSessionId, onChatClick, onDeleteClick }) => {
   const [currentPage, setCurrentPage] = useState(1);
+  const [statusFilter, setStatusFilter] = useState('completed');
   const itemsPerPage = 5;
 
   // Ensure sessions is always an array
@@ -216,11 +230,36 @@ const SessionHistory = ({ sessions, currentSessionId, onChatClick }) => {
     );
   }
 
-  // Calculate pagination
-  const totalPages = Math.ceil(sessionsList.length / itemsPerPage);
+  // Filter sessions by selected status
+  const filteredSessions = sessionsList.filter((session) => {
+    if (statusFilter === 'all') return true;
+
+    const status = getWorkflowStatus(session);
+    if (statusFilter === 'completed') {
+      return status === WORKFLOW_STATUS.ORDER_CONFIRMED || status === WORKFLOW_STATUS.COMPLETED || status === WORKFLOW_STATUS.NO_PLANNING_NEEDED;
+    }
+    if (statusFilter === 'failed') {
+      return status === WORKFLOW_STATUS.ERROR || status === WORKFLOW_STATUS.USER_REJECTION_RECEIVED;
+    }
+    if (statusFilter === 'in_progress') {
+      const isCompleted = status === WORKFLOW_STATUS.ORDER_CONFIRMED || status === WORKFLOW_STATUS.COMPLETED || status === WORKFLOW_STATUS.NO_PLANNING_NEEDED;
+      const isFailed = status === WORKFLOW_STATUS.ERROR || status === WORKFLOW_STATUS.USER_REJECTION_RECEIVED;
+      return !isCompleted && !isFailed;
+    }
+    return true;
+  });
+
+  // Wait, I didn't import React. Let's assume we can just use `currentPage` and check.
+  const maxPage = Math.max(1, Math.ceil(filteredSessions.length / itemsPerPage));
+  if (currentPage > maxPage) {
+    setCurrentPage(1);
+  }
+
+  // Calculate pagination based on filtered sessions
+  const totalPages = Math.ceil(filteredSessions.length / itemsPerPage) || 1;
   const startIndex = (currentPage - 1) * itemsPerPage;
   const endIndex = startIndex + itemsPerPage;
-  const currentSessions = sessionsList.slice(startIndex, endIndex);
+  const currentSessions = filteredSessions.slice(startIndex, endIndex);
 
   const handlePrevPage = () => {
     setCurrentPage(prev => Math.max(1, prev - 1));
@@ -232,12 +271,37 @@ const SessionHistory = ({ sessions, currentSessionId, onChatClick }) => {
 
   return (
     <div className="space-y-3">
-      <div className="flex items-center justify-between mb-3">
+      <div className="flex items-center justify-between mb-3 flex-wrap gap-2">
         <h3 className="text-lg font-semibold text-white">Session History</h3>
-        <span className="text-sm text-gray-400">
-          {sessionsList.length} session{sessionsList.length !== 1 ? 's' : ''}
-        </span>
+
+        <div className="flex items-center gap-3">
+          <div className="flex items-center gap-2">
+            <Filter size={14} className="text-gray-400" />
+            <select
+              value={statusFilter}
+              onChange={(e) => {
+                setStatusFilter(e.target.value);
+                setCurrentPage(1);
+              }}
+              className="bg-gray-800 border border-gray-700 text-gray-300 text-xs rounded-md px-2 py-1 focus:outline-none focus:border-blue-500"
+            >
+              <option value="all">All Sessions</option>
+              <option value="in_progress">In Progress</option>
+              <option value="completed">Completed</option>
+              <option value="failed">Failed / Cancelled</option>
+            </select>
+          </div>
+          <span className="text-sm text-gray-400 hidden sm:inline-block">
+            {filteredSessions.length} session{filteredSessions.length !== 1 ? 's' : ''}
+          </span>
+        </div>
       </div>
+
+      {filteredSessions.length === 0 && (
+        <div className="bg-gray-800/30 border border-gray-700/50 rounded-xl p-6 text-center">
+          <p className="text-gray-400">No sessions match the current filter.</p>
+        </div>
+      )}
 
       {currentSessions.map((session) => (
         <SessionHistoryItem
@@ -245,6 +309,7 @@ const SessionHistory = ({ sessions, currentSessionId, onChatClick }) => {
           session={session}
           isActive={session.session_id === currentSessionId}
           onChatClick={onChatClick}
+          onDeleteClick={onDeleteClick}
         />
       ))}
 
@@ -254,11 +319,10 @@ const SessionHistory = ({ sessions, currentSessionId, onChatClick }) => {
           <button
             onClick={handlePrevPage}
             disabled={currentPage === 1}
-            className={`flex items-center gap-2 px-4 py-2 rounded-lg transition-colors ${
-              currentPage === 1
-                ? 'text-gray-600 cursor-not-allowed'
-                : 'text-blue-400 hover:bg-blue-500/10'
-            }`}
+            className={`flex items-center gap-2 px-4 py-2 rounded-lg transition-colors ${currentPage === 1
+              ? 'text-gray-600 cursor-not-allowed'
+              : 'text-blue-400 hover:bg-blue-500/10'
+              }`}
           >
             <ChevronLeft size={16} />
             <span className="text-sm">Previous</span>
@@ -273,11 +337,10 @@ const SessionHistory = ({ sessions, currentSessionId, onChatClick }) => {
           <button
             onClick={handleNextPage}
             disabled={currentPage === totalPages}
-            className={`flex items-center gap-2 px-4 py-2 rounded-lg transition-colors ${
-              currentPage === totalPages
-                ? 'text-gray-600 cursor-not-allowed'
-                : 'text-blue-400 hover:bg-blue-500/10'
-            }`}
+            className={`flex items-center gap-2 px-4 py-2 rounded-lg transition-colors ${currentPage === totalPages
+              ? 'text-gray-600 cursor-not-allowed'
+              : 'text-blue-400 hover:bg-blue-500/10'
+              }`}
           >
             <span className="text-sm">Next</span>
             <ChevronRight size={16} />

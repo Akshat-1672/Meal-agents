@@ -1,0 +1,5609 @@
+[
+  {
+    "id": "f_1",
+    "name": "Meghana Foods",
+    "cuisine": "Healthy Food",
+    "rating": 4.2,
+    "delivery_time_min": 47,
+    "tags": [
+      "Healthy Food",
+      "Bestseller"
+    ],
+    "menu": [
+      {
+        "id": "m_MeghanaFoods_0",
+        "name": "Healthy Food Specialty Item 1",
+        "description": "Delicious healthy food dish prepared with fresh ingredients.",
+        "price": 170,
+        "calories": 319,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_MeghanaFoods_1",
+        "name": "Healthy Food Specialty Item 2",
+        "description": "Delicious healthy food dish prepared with fresh ingredients.",
+        "price": 114,
+        "calories": 532,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_MeghanaFoods_2",
+        "name": "Healthy Food Specialty Item 3",
+        "description": "Delicious healthy food dish prepared with fresh ingredients.",
+        "price": 450,
+        "calories": 369,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_MeghanaFoods_3",
+        "name": "Healthy Food Specialty Item 4",
+        "description": "Delicious healthy food dish prepared with fresh ingredients.",
+        "price": 499,
+        "calories": 338,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_MeghanaFoods_4",
+        "name": "Healthy Food Specialty Item 5",
+        "description": "Delicious healthy food dish prepared with fresh ingredients.",
+        "price": 373,
+        "calories": 488,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_MeghanaFoods_5",
+        "name": "Healthy Food Specialty Item 6",
+        "description": "Delicious healthy food dish prepared with fresh ingredients.",
+        "price": 229,
+        "calories": 563,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_MeghanaFoods_6",
+        "name": "Healthy Food Specialty Item 7",
+        "description": "Delicious healthy food dish prepared with fresh ingredients.",
+        "price": 203,
+        "calories": 258,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_MeghanaFoods_7",
+        "name": "Healthy Food Specialty Item 8",
+        "description": "Delicious healthy food dish prepared with fresh ingredients.",
+        "price": 428,
+        "calories": 318,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_MeghanaFoods_8",
+        "name": "Healthy Food Specialty Item 9",
+        "description": "Delicious healthy food dish prepared with fresh ingredients.",
+        "price": 372,
+        "calories": 156,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_MeghanaFoods_9",
+        "name": "Healthy Food Specialty Item 10",
+        "description": "Delicious healthy food dish prepared with fresh ingredients.",
+        "price": 424,
+        "calories": 595,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_MeghanaFoods_10",
+        "name": "Healthy Food Specialty Item 11",
+        "description": "Delicious healthy food dish prepared with fresh ingredients.",
+        "price": 227,
+        "calories": 453,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_MeghanaFoods_11",
+        "name": "Healthy Food Specialty Item 12",
+        "description": "Delicious healthy food dish prepared with fresh ingredients.",
+        "price": 432,
+        "calories": 222,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_MeghanaFoods_12",
+        "name": "Healthy Food Specialty Item 13",
+        "description": "Delicious healthy food dish prepared with fresh ingredients.",
+        "price": 225,
+        "calories": 705,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_MeghanaFoods_13",
+        "name": "Healthy Food Specialty Item 14",
+        "description": "Delicious healthy food dish prepared with fresh ingredients.",
+        "price": 234,
+        "calories": 297,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_MeghanaFoods_14",
+        "name": "Healthy Food Specialty Item 15",
+        "description": "Delicious healthy food dish prepared with fresh ingredients.",
+        "price": 399,
+        "calories": 439,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "f_2",
+    "name": "Empire Restaurant",
+    "cuisine": "Biryani",
+    "rating": 4.1,
+    "delivery_time_min": 59,
+    "tags": [
+      "Biryani",
+      "Bestseller"
+    ],
+    "menu": [
+      {
+        "id": "m_EmpireRestaurant_0",
+        "name": "Biryani Specialty Item 1",
+        "description": "Delicious biryani dish prepared with fresh ingredients.",
+        "price": 156,
+        "calories": 768,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_EmpireRestaurant_1",
+        "name": "Biryani Specialty Item 2",
+        "description": "Delicious biryani dish prepared with fresh ingredients.",
+        "price": 353,
+        "calories": 714,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_EmpireRestaurant_2",
+        "name": "Biryani Specialty Item 3",
+        "description": "Delicious biryani dish prepared with fresh ingredients.",
+        "price": 228,
+        "calories": 546,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_EmpireRestaurant_3",
+        "name": "Biryani Specialty Item 4",
+        "description": "Delicious biryani dish prepared with fresh ingredients.",
+        "price": 154,
+        "calories": 331,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_EmpireRestaurant_4",
+        "name": "Biryani Specialty Item 5",
+        "description": "Delicious biryani dish prepared with fresh ingredients.",
+        "price": 272,
+        "calories": 154,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_EmpireRestaurant_5",
+        "name": "Biryani Specialty Item 6",
+        "description": "Delicious biryani dish prepared with fresh ingredients.",
+        "price": 169,
+        "calories": 440,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_EmpireRestaurant_6",
+        "name": "Biryani Specialty Item 7",
+        "description": "Delicious biryani dish prepared with fresh ingredients.",
+        "price": 380,
+        "calories": 675,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_EmpireRestaurant_7",
+        "name": "Biryani Specialty Item 8",
+        "description": "Delicious biryani dish prepared with fresh ingredients.",
+        "price": 141,
+        "calories": 735,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_EmpireRestaurant_8",
+        "name": "Biryani Specialty Item 9",
+        "description": "Delicious biryani dish prepared with fresh ingredients.",
+        "price": 391,
+        "calories": 406,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_EmpireRestaurant_9",
+        "name": "Biryani Specialty Item 10",
+        "description": "Delicious biryani dish prepared with fresh ingredients.",
+        "price": 270,
+        "calories": 237,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_EmpireRestaurant_10",
+        "name": "Biryani Specialty Item 11",
+        "description": "Delicious biryani dish prepared with fresh ingredients.",
+        "price": 449,
+        "calories": 665,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_EmpireRestaurant_11",
+        "name": "Biryani Specialty Item 12",
+        "description": "Delicious biryani dish prepared with fresh ingredients.",
+        "price": 467,
+        "calories": 704,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_EmpireRestaurant_12",
+        "name": "Biryani Specialty Item 13",
+        "description": "Delicious biryani dish prepared with fresh ingredients.",
+        "price": 361,
+        "calories": 533,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_EmpireRestaurant_13",
+        "name": "Biryani Specialty Item 14",
+        "description": "Delicious biryani dish prepared with fresh ingredients.",
+        "price": 484,
+        "calories": 542,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "f_3",
+    "name": "Leon Grill",
+    "cuisine": "Desserts",
+    "rating": 4.2,
+    "delivery_time_min": 51,
+    "tags": [
+      "Desserts",
+      "Bestseller"
+    ],
+    "menu": [
+      {
+        "id": "m_LeonGrill_0",
+        "name": "Desserts Specialty Item 1",
+        "description": "Delicious desserts dish prepared with fresh ingredients.",
+        "price": 265,
+        "calories": 575,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_LeonGrill_1",
+        "name": "Desserts Specialty Item 2",
+        "description": "Delicious desserts dish prepared with fresh ingredients.",
+        "price": 354,
+        "calories": 642,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_LeonGrill_2",
+        "name": "Desserts Specialty Item 3",
+        "description": "Delicious desserts dish prepared with fresh ingredients.",
+        "price": 316,
+        "calories": 725,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_LeonGrill_3",
+        "name": "Desserts Specialty Item 4",
+        "description": "Delicious desserts dish prepared with fresh ingredients.",
+        "price": 374,
+        "calories": 283,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_LeonGrill_4",
+        "name": "Desserts Specialty Item 5",
+        "description": "Delicious desserts dish prepared with fresh ingredients.",
+        "price": 258,
+        "calories": 195,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_LeonGrill_5",
+        "name": "Desserts Specialty Item 6",
+        "description": "Delicious desserts dish prepared with fresh ingredients.",
+        "price": 410,
+        "calories": 154,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_LeonGrill_6",
+        "name": "Desserts Specialty Item 7",
+        "description": "Delicious desserts dish prepared with fresh ingredients.",
+        "price": 107,
+        "calories": 246,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_LeonGrill_7",
+        "name": "Desserts Specialty Item 8",
+        "description": "Delicious desserts dish prepared with fresh ingredients.",
+        "price": 222,
+        "calories": 376,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_LeonGrill_8",
+        "name": "Desserts Specialty Item 9",
+        "description": "Delicious desserts dish prepared with fresh ingredients.",
+        "price": 388,
+        "calories": 286,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_LeonGrill_9",
+        "name": "Desserts Specialty Item 10",
+        "description": "Delicious desserts dish prepared with fresh ingredients.",
+        "price": 273,
+        "calories": 333,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_LeonGrill_10",
+        "name": "Desserts Specialty Item 11",
+        "description": "Delicious desserts dish prepared with fresh ingredients.",
+        "price": 172,
+        "calories": 526,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_LeonGrill_11",
+        "name": "Desserts Specialty Item 12",
+        "description": "Delicious desserts dish prepared with fresh ingredients.",
+        "price": 293,
+        "calories": 793,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "f_4",
+    "name": "KFC",
+    "cuisine": "Healthy Food",
+    "rating": 4.3,
+    "delivery_time_min": 23,
+    "tags": [
+      "Healthy Food",
+      "Bestseller"
+    ],
+    "menu": [
+      {
+        "id": "m_KFC_0",
+        "name": "Healthy Food Specialty Item 1",
+        "description": "Delicious healthy food dish prepared with fresh ingredients.",
+        "price": 177,
+        "calories": 548,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_KFC_1",
+        "name": "Healthy Food Specialty Item 2",
+        "description": "Delicious healthy food dish prepared with fresh ingredients.",
+        "price": 492,
+        "calories": 158,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_KFC_2",
+        "name": "Healthy Food Specialty Item 3",
+        "description": "Delicious healthy food dish prepared with fresh ingredients.",
+        "price": 135,
+        "calories": 281,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_KFC_3",
+        "name": "Healthy Food Specialty Item 4",
+        "description": "Delicious healthy food dish prepared with fresh ingredients.",
+        "price": 377,
+        "calories": 712,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_KFC_4",
+        "name": "Healthy Food Specialty Item 5",
+        "description": "Delicious healthy food dish prepared with fresh ingredients.",
+        "price": 426,
+        "calories": 529,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_KFC_5",
+        "name": "Healthy Food Specialty Item 6",
+        "description": "Delicious healthy food dish prepared with fresh ingredients.",
+        "price": 261,
+        "calories": 157,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_KFC_6",
+        "name": "Healthy Food Specialty Item 7",
+        "description": "Delicious healthy food dish prepared with fresh ingredients.",
+        "price": 307,
+        "calories": 452,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_KFC_7",
+        "name": "Healthy Food Specialty Item 8",
+        "description": "Delicious healthy food dish prepared with fresh ingredients.",
+        "price": 243,
+        "calories": 731,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_KFC_8",
+        "name": "Healthy Food Specialty Item 9",
+        "description": "Delicious healthy food dish prepared with fresh ingredients.",
+        "price": 460,
+        "calories": 695,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_KFC_9",
+        "name": "Healthy Food Specialty Item 10",
+        "description": "Delicious healthy food dish prepared with fresh ingredients.",
+        "price": 474,
+        "calories": 155,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_KFC_10",
+        "name": "Healthy Food Specialty Item 11",
+        "description": "Delicious healthy food dish prepared with fresh ingredients.",
+        "price": 214,
+        "calories": 329,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_KFC_11",
+        "name": "Healthy Food Specialty Item 12",
+        "description": "Delicious healthy food dish prepared with fresh ingredients.",
+        "price": 397,
+        "calories": 725,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_KFC_12",
+        "name": "Healthy Food Specialty Item 13",
+        "description": "Delicious healthy food dish prepared with fresh ingredients.",
+        "price": 274,
+        "calories": 473,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_KFC_13",
+        "name": "Healthy Food Specialty Item 14",
+        "description": "Delicious healthy food dish prepared with fresh ingredients.",
+        "price": 205,
+        "calories": 510,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_KFC_14",
+        "name": "Healthy Food Specialty Item 15",
+        "description": "Delicious healthy food dish prepared with fresh ingredients.",
+        "price": 286,
+        "calories": 670,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_KFC_15",
+        "name": "Healthy Food Specialty Item 16",
+        "description": "Delicious healthy food dish prepared with fresh ingredients.",
+        "price": 269,
+        "calories": 798,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_KFC_16",
+        "name": "Healthy Food Specialty Item 17",
+        "description": "Delicious healthy food dish prepared with fresh ingredients.",
+        "price": 489,
+        "calories": 426,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_KFC_17",
+        "name": "Healthy Food Specialty Item 18",
+        "description": "Delicious healthy food dish prepared with fresh ingredients.",
+        "price": 118,
+        "calories": 640,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_KFC_18",
+        "name": "Healthy Food Specialty Item 19",
+        "description": "Delicious healthy food dish prepared with fresh ingredients.",
+        "price": 398,
+        "calories": 441,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_KFC_19",
+        "name": "Healthy Food Specialty Item 20",
+        "description": "Delicious healthy food dish prepared with fresh ingredients.",
+        "price": 187,
+        "calories": 774,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "f_5",
+    "name": "McDonald's",
+    "cuisine": "North Indian",
+    "rating": 4.5,
+    "delivery_time_min": 30,
+    "tags": [
+      "North Indian",
+      "Bestseller"
+    ],
+    "menu": [
+      {
+        "id": "m_McDonald's_0",
+        "name": "North Indian Specialty Item 1",
+        "description": "Delicious north indian dish prepared with fresh ingredients.",
+        "price": 277,
+        "calories": 230,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_McDonald's_1",
+        "name": "North Indian Specialty Item 2",
+        "description": "Delicious north indian dish prepared with fresh ingredients.",
+        "price": 397,
+        "calories": 277,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_McDonald's_2",
+        "name": "North Indian Specialty Item 3",
+        "description": "Delicious north indian dish prepared with fresh ingredients.",
+        "price": 385,
+        "calories": 314,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_McDonald's_3",
+        "name": "North Indian Specialty Item 4",
+        "description": "Delicious north indian dish prepared with fresh ingredients.",
+        "price": 163,
+        "calories": 516,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_McDonald's_4",
+        "name": "North Indian Specialty Item 5",
+        "description": "Delicious north indian dish prepared with fresh ingredients.",
+        "price": 270,
+        "calories": 152,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_McDonald's_5",
+        "name": "North Indian Specialty Item 6",
+        "description": "Delicious north indian dish prepared with fresh ingredients.",
+        "price": 158,
+        "calories": 757,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_McDonald's_6",
+        "name": "North Indian Specialty Item 7",
+        "description": "Delicious north indian dish prepared with fresh ingredients.",
+        "price": 246,
+        "calories": 659,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_McDonald's_7",
+        "name": "North Indian Specialty Item 8",
+        "description": "Delicious north indian dish prepared with fresh ingredients.",
+        "price": 375,
+        "calories": 377,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_McDonald's_8",
+        "name": "North Indian Specialty Item 9",
+        "description": "Delicious north indian dish prepared with fresh ingredients.",
+        "price": 296,
+        "calories": 387,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_McDonald's_9",
+        "name": "North Indian Specialty Item 10",
+        "description": "Delicious north indian dish prepared with fresh ingredients.",
+        "price": 406,
+        "calories": 534,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_McDonald's_10",
+        "name": "North Indian Specialty Item 11",
+        "description": "Delicious north indian dish prepared with fresh ingredients.",
+        "price": 434,
+        "calories": 398,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_McDonald's_11",
+        "name": "North Indian Specialty Item 12",
+        "description": "Delicious north indian dish prepared with fresh ingredients.",
+        "price": 208,
+        "calories": 218,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_McDonald's_12",
+        "name": "North Indian Specialty Item 13",
+        "description": "Delicious north indian dish prepared with fresh ingredients.",
+        "price": 276,
+        "calories": 206,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_McDonald's_13",
+        "name": "North Indian Specialty Item 14",
+        "description": "Delicious north indian dish prepared with fresh ingredients.",
+        "price": 276,
+        "calories": 201,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_McDonald's_14",
+        "name": "North Indian Specialty Item 15",
+        "description": "Delicious north indian dish prepared with fresh ingredients.",
+        "price": 473,
+        "calories": 252,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "f_6",
+    "name": "Domino's Pizza",
+    "cuisine": "Fast Food",
+    "rating": 4.8,
+    "delivery_time_min": 18,
+    "tags": [
+      "Fast Food",
+      "Bestseller"
+    ],
+    "menu": [
+      {
+        "id": "m_Domino'sPizza_0",
+        "name": "Fast Food Specialty Item 1",
+        "description": "Delicious fast food dish prepared with fresh ingredients.",
+        "price": 466,
+        "calories": 415,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_Domino'sPizza_1",
+        "name": "Fast Food Specialty Item 2",
+        "description": "Delicious fast food dish prepared with fresh ingredients.",
+        "price": 141,
+        "calories": 306,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_Domino'sPizza_2",
+        "name": "Fast Food Specialty Item 3",
+        "description": "Delicious fast food dish prepared with fresh ingredients.",
+        "price": 111,
+        "calories": 559,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_Domino'sPizza_3",
+        "name": "Fast Food Specialty Item 4",
+        "description": "Delicious fast food dish prepared with fresh ingredients.",
+        "price": 233,
+        "calories": 701,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_Domino'sPizza_4",
+        "name": "Fast Food Specialty Item 5",
+        "description": "Delicious fast food dish prepared with fresh ingredients.",
+        "price": 448,
+        "calories": 706,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_Domino'sPizza_5",
+        "name": "Fast Food Specialty Item 6",
+        "description": "Delicious fast food dish prepared with fresh ingredients.",
+        "price": 356,
+        "calories": 684,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_Domino'sPizza_6",
+        "name": "Fast Food Specialty Item 7",
+        "description": "Delicious fast food dish prepared with fresh ingredients.",
+        "price": 205,
+        "calories": 225,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_Domino'sPizza_7",
+        "name": "Fast Food Specialty Item 8",
+        "description": "Delicious fast food dish prepared with fresh ingredients.",
+        "price": 257,
+        "calories": 233,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_Domino'sPizza_8",
+        "name": "Fast Food Specialty Item 9",
+        "description": "Delicious fast food dish prepared with fresh ingredients.",
+        "price": 452,
+        "calories": 379,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_Domino'sPizza_9",
+        "name": "Fast Food Specialty Item 10",
+        "description": "Delicious fast food dish prepared with fresh ingredients.",
+        "price": 268,
+        "calories": 703,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_Domino'sPizza_10",
+        "name": "Fast Food Specialty Item 11",
+        "description": "Delicious fast food dish prepared with fresh ingredients.",
+        "price": 109,
+        "calories": 624,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_Domino'sPizza_11",
+        "name": "Fast Food Specialty Item 12",
+        "description": "Delicious fast food dish prepared with fresh ingredients.",
+        "price": 285,
+        "calories": 499,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_Domino'sPizza_12",
+        "name": "Fast Food Specialty Item 13",
+        "description": "Delicious fast food dish prepared with fresh ingredients.",
+        "price": 173,
+        "calories": 649,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_Domino'sPizza_13",
+        "name": "Fast Food Specialty Item 14",
+        "description": "Delicious fast food dish prepared with fresh ingredients.",
+        "price": 425,
+        "calories": 564,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "f_7",
+    "name": "Pizza Hut",
+    "cuisine": "Fast Food",
+    "rating": 4.1,
+    "delivery_time_min": 35,
+    "tags": [
+      "Fast Food",
+      "Bestseller"
+    ],
+    "menu": [
+      {
+        "id": "m_PizzaHut_0",
+        "name": "Fast Food Specialty Item 1",
+        "description": "Delicious fast food dish prepared with fresh ingredients.",
+        "price": 350,
+        "calories": 374,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_PizzaHut_1",
+        "name": "Fast Food Specialty Item 2",
+        "description": "Delicious fast food dish prepared with fresh ingredients.",
+        "price": 349,
+        "calories": 724,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_PizzaHut_2",
+        "name": "Fast Food Specialty Item 3",
+        "description": "Delicious fast food dish prepared with fresh ingredients.",
+        "price": 329,
+        "calories": 782,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_PizzaHut_3",
+        "name": "Fast Food Specialty Item 4",
+        "description": "Delicious fast food dish prepared with fresh ingredients.",
+        "price": 416,
+        "calories": 299,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_PizzaHut_4",
+        "name": "Fast Food Specialty Item 5",
+        "description": "Delicious fast food dish prepared with fresh ingredients.",
+        "price": 490,
+        "calories": 296,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_PizzaHut_5",
+        "name": "Fast Food Specialty Item 6",
+        "description": "Delicious fast food dish prepared with fresh ingredients.",
+        "price": 343,
+        "calories": 573,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_PizzaHut_6",
+        "name": "Fast Food Specialty Item 7",
+        "description": "Delicious fast food dish prepared with fresh ingredients.",
+        "price": 454,
+        "calories": 335,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_PizzaHut_7",
+        "name": "Fast Food Specialty Item 8",
+        "description": "Delicious fast food dish prepared with fresh ingredients.",
+        "price": 109,
+        "calories": 685,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_PizzaHut_8",
+        "name": "Fast Food Specialty Item 9",
+        "description": "Delicious fast food dish prepared with fresh ingredients.",
+        "price": 356,
+        "calories": 440,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_PizzaHut_9",
+        "name": "Fast Food Specialty Item 10",
+        "description": "Delicious fast food dish prepared with fresh ingredients.",
+        "price": 489,
+        "calories": 433,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_PizzaHut_10",
+        "name": "Fast Food Specialty Item 11",
+        "description": "Delicious fast food dish prepared with fresh ingredients.",
+        "price": 267,
+        "calories": 696,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_PizzaHut_11",
+        "name": "Fast Food Specialty Item 12",
+        "description": "Delicious fast food dish prepared with fresh ingredients.",
+        "price": 396,
+        "calories": 738,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_PizzaHut_12",
+        "name": "Fast Food Specialty Item 13",
+        "description": "Delicious fast food dish prepared with fresh ingredients.",
+        "price": 339,
+        "calories": 276,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_PizzaHut_13",
+        "name": "Fast Food Specialty Item 14",
+        "description": "Delicious fast food dish prepared with fresh ingredients.",
+        "price": 445,
+        "calories": 571,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_PizzaHut_14",
+        "name": "Fast Food Specialty Item 15",
+        "description": "Delicious fast food dish prepared with fresh ingredients.",
+        "price": 458,
+        "calories": 575,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_PizzaHut_15",
+        "name": "Fast Food Specialty Item 16",
+        "description": "Delicious fast food dish prepared with fresh ingredients.",
+        "price": 369,
+        "calories": 308,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_PizzaHut_16",
+        "name": "Fast Food Specialty Item 17",
+        "description": "Delicious fast food dish prepared with fresh ingredients.",
+        "price": 372,
+        "calories": 434,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_PizzaHut_17",
+        "name": "Fast Food Specialty Item 18",
+        "description": "Delicious fast food dish prepared with fresh ingredients.",
+        "price": 108,
+        "calories": 488,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_PizzaHut_18",
+        "name": "Fast Food Specialty Item 19",
+        "description": "Delicious fast food dish prepared with fresh ingredients.",
+        "price": 444,
+        "calories": 202,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_PizzaHut_19",
+        "name": "Fast Food Specialty Item 20",
+        "description": "Delicious fast food dish prepared with fresh ingredients.",
+        "price": 373,
+        "calories": 329,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_PizzaHut_20",
+        "name": "Fast Food Specialty Item 21",
+        "description": "Delicious fast food dish prepared with fresh ingredients.",
+        "price": 257,
+        "calories": 244,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_PizzaHut_21",
+        "name": "Fast Food Specialty Item 22",
+        "description": "Delicious fast food dish prepared with fresh ingredients.",
+        "price": 198,
+        "calories": 202,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_PizzaHut_22",
+        "name": "Fast Food Specialty Item 23",
+        "description": "Delicious fast food dish prepared with fresh ingredients.",
+        "price": 484,
+        "calories": 289,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_PizzaHut_23",
+        "name": "Fast Food Specialty Item 24",
+        "description": "Delicious fast food dish prepared with fresh ingredients.",
+        "price": 142,
+        "calories": 170,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_PizzaHut_24",
+        "name": "Fast Food Specialty Item 25",
+        "description": "Delicious fast food dish prepared with fresh ingredients.",
+        "price": 233,
+        "calories": 488,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "f_8",
+    "name": "A2B",
+    "cuisine": "Biryani",
+    "rating": 3.9,
+    "delivery_time_min": 53,
+    "tags": [
+      "Biryani",
+      "Bestseller"
+    ],
+    "menu": [
+      {
+        "id": "m_A2B_0",
+        "name": "Biryani Specialty Item 1",
+        "description": "Delicious biryani dish prepared with fresh ingredients.",
+        "price": 363,
+        "calories": 294,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_A2B_1",
+        "name": "Biryani Specialty Item 2",
+        "description": "Delicious biryani dish prepared with fresh ingredients.",
+        "price": 176,
+        "calories": 356,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_A2B_2",
+        "name": "Biryani Specialty Item 3",
+        "description": "Delicious biryani dish prepared with fresh ingredients.",
+        "price": 482,
+        "calories": 673,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_A2B_3",
+        "name": "Biryani Specialty Item 4",
+        "description": "Delicious biryani dish prepared with fresh ingredients.",
+        "price": 297,
+        "calories": 761,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_A2B_4",
+        "name": "Biryani Specialty Item 5",
+        "description": "Delicious biryani dish prepared with fresh ingredients.",
+        "price": 389,
+        "calories": 544,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_A2B_5",
+        "name": "Biryani Specialty Item 6",
+        "description": "Delicious biryani dish prepared with fresh ingredients.",
+        "price": 157,
+        "calories": 607,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_A2B_6",
+        "name": "Biryani Specialty Item 7",
+        "description": "Delicious biryani dish prepared with fresh ingredients.",
+        "price": 232,
+        "calories": 618,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_A2B_7",
+        "name": "Biryani Specialty Item 8",
+        "description": "Delicious biryani dish prepared with fresh ingredients.",
+        "price": 156,
+        "calories": 664,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_A2B_8",
+        "name": "Biryani Specialty Item 9",
+        "description": "Delicious biryani dish prepared with fresh ingredients.",
+        "price": 111,
+        "calories": 512,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_A2B_9",
+        "name": "Biryani Specialty Item 10",
+        "description": "Delicious biryani dish prepared with fresh ingredients.",
+        "price": 213,
+        "calories": 289,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_A2B_10",
+        "name": "Biryani Specialty Item 11",
+        "description": "Delicious biryani dish prepared with fresh ingredients.",
+        "price": 437,
+        "calories": 495,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_A2B_11",
+        "name": "Biryani Specialty Item 12",
+        "description": "Delicious biryani dish prepared with fresh ingredients.",
+        "price": 144,
+        "calories": 202,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_A2B_12",
+        "name": "Biryani Specialty Item 13",
+        "description": "Delicious biryani dish prepared with fresh ingredients.",
+        "price": 416,
+        "calories": 283,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_A2B_13",
+        "name": "Biryani Specialty Item 14",
+        "description": "Delicious biryani dish prepared with fresh ingredients.",
+        "price": 148,
+        "calories": 371,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_A2B_14",
+        "name": "Biryani Specialty Item 15",
+        "description": "Delicious biryani dish prepared with fresh ingredients.",
+        "price": 231,
+        "calories": 155,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_A2B_15",
+        "name": "Biryani Specialty Item 16",
+        "description": "Delicious biryani dish prepared with fresh ingredients.",
+        "price": 377,
+        "calories": 583,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_A2B_16",
+        "name": "Biryani Specialty Item 17",
+        "description": "Delicious biryani dish prepared with fresh ingredients.",
+        "price": 413,
+        "calories": 187,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "f_9",
+    "name": "Udupi Grand",
+    "cuisine": "Italian",
+    "rating": 3.7,
+    "delivery_time_min": 51,
+    "tags": [
+      "Italian",
+      "Bestseller"
+    ],
+    "menu": [
+      {
+        "id": "m_UdupiGrand_0",
+        "name": "Italian Specialty Item 1",
+        "description": "Delicious italian dish prepared with fresh ingredients.",
+        "price": 146,
+        "calories": 316,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_UdupiGrand_1",
+        "name": "Italian Specialty Item 2",
+        "description": "Delicious italian dish prepared with fresh ingredients.",
+        "price": 116,
+        "calories": 365,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_UdupiGrand_2",
+        "name": "Italian Specialty Item 3",
+        "description": "Delicious italian dish prepared with fresh ingredients.",
+        "price": 294,
+        "calories": 661,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_UdupiGrand_3",
+        "name": "Italian Specialty Item 4",
+        "description": "Delicious italian dish prepared with fresh ingredients.",
+        "price": 163,
+        "calories": 730,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_UdupiGrand_4",
+        "name": "Italian Specialty Item 5",
+        "description": "Delicious italian dish prepared with fresh ingredients.",
+        "price": 149,
+        "calories": 518,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_UdupiGrand_5",
+        "name": "Italian Specialty Item 6",
+        "description": "Delicious italian dish prepared with fresh ingredients.",
+        "price": 294,
+        "calories": 614,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_UdupiGrand_6",
+        "name": "Italian Specialty Item 7",
+        "description": "Delicious italian dish prepared with fresh ingredients.",
+        "price": 299,
+        "calories": 760,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_UdupiGrand_7",
+        "name": "Italian Specialty Item 8",
+        "description": "Delicious italian dish prepared with fresh ingredients.",
+        "price": 99,
+        "calories": 763,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_UdupiGrand_8",
+        "name": "Italian Specialty Item 9",
+        "description": "Delicious italian dish prepared with fresh ingredients.",
+        "price": 242,
+        "calories": 580,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_UdupiGrand_9",
+        "name": "Italian Specialty Item 10",
+        "description": "Delicious italian dish prepared with fresh ingredients.",
+        "price": 287,
+        "calories": 218,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_UdupiGrand_10",
+        "name": "Italian Specialty Item 11",
+        "description": "Delicious italian dish prepared with fresh ingredients.",
+        "price": 426,
+        "calories": 384,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_UdupiGrand_11",
+        "name": "Italian Specialty Item 12",
+        "description": "Delicious italian dish prepared with fresh ingredients.",
+        "price": 248,
+        "calories": 183,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_UdupiGrand_12",
+        "name": "Italian Specialty Item 13",
+        "description": "Delicious italian dish prepared with fresh ingredients.",
+        "price": 199,
+        "calories": 291,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_UdupiGrand_13",
+        "name": "Italian Specialty Item 14",
+        "description": "Delicious italian dish prepared with fresh ingredients.",
+        "price": 363,
+        "calories": 744,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_UdupiGrand_14",
+        "name": "Italian Specialty Item 15",
+        "description": "Delicious italian dish prepared with fresh ingredients.",
+        "price": 261,
+        "calories": 439,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "f_10",
+    "name": "Truffles",
+    "cuisine": "Italian",
+    "rating": 3.9,
+    "delivery_time_min": 46,
+    "tags": [
+      "Italian",
+      "Bestseller"
+    ],
+    "menu": [
+      {
+        "id": "m_Truffles_0",
+        "name": "Italian Specialty Item 1",
+        "description": "Delicious italian dish prepared with fresh ingredients.",
+        "price": 282,
+        "calories": 603,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_Truffles_1",
+        "name": "Italian Specialty Item 2",
+        "description": "Delicious italian dish prepared with fresh ingredients.",
+        "price": 161,
+        "calories": 190,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_Truffles_2",
+        "name": "Italian Specialty Item 3",
+        "description": "Delicious italian dish prepared with fresh ingredients.",
+        "price": 264,
+        "calories": 342,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_Truffles_3",
+        "name": "Italian Specialty Item 4",
+        "description": "Delicious italian dish prepared with fresh ingredients.",
+        "price": 360,
+        "calories": 547,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_Truffles_4",
+        "name": "Italian Specialty Item 5",
+        "description": "Delicious italian dish prepared with fresh ingredients.",
+        "price": 260,
+        "calories": 263,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_Truffles_5",
+        "name": "Italian Specialty Item 6",
+        "description": "Delicious italian dish prepared with fresh ingredients.",
+        "price": 395,
+        "calories": 560,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_Truffles_6",
+        "name": "Italian Specialty Item 7",
+        "description": "Delicious italian dish prepared with fresh ingredients.",
+        "price": 467,
+        "calories": 180,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_Truffles_7",
+        "name": "Italian Specialty Item 8",
+        "description": "Delicious italian dish prepared with fresh ingredients.",
+        "price": 106,
+        "calories": 447,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_Truffles_8",
+        "name": "Italian Specialty Item 9",
+        "description": "Delicious italian dish prepared with fresh ingredients.",
+        "price": 495,
+        "calories": 647,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_Truffles_9",
+        "name": "Italian Specialty Item 10",
+        "description": "Delicious italian dish prepared with fresh ingredients.",
+        "price": 408,
+        "calories": 757,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_Truffles_10",
+        "name": "Italian Specialty Item 11",
+        "description": "Delicious italian dish prepared with fresh ingredients.",
+        "price": 189,
+        "calories": 532,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "f_11",
+    "name": "Burger King",
+    "cuisine": "North Indian",
+    "rating": 3.9,
+    "delivery_time_min": 46,
+    "tags": [
+      "North Indian",
+      "Bestseller"
+    ],
+    "menu": [
+      {
+        "id": "m_BurgerKing_0",
+        "name": "North Indian Specialty Item 1",
+        "description": "Delicious north indian dish prepared with fresh ingredients.",
+        "price": 497,
+        "calories": 500,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_BurgerKing_1",
+        "name": "North Indian Specialty Item 2",
+        "description": "Delicious north indian dish prepared with fresh ingredients.",
+        "price": 471,
+        "calories": 727,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_BurgerKing_2",
+        "name": "North Indian Specialty Item 3",
+        "description": "Delicious north indian dish prepared with fresh ingredients.",
+        "price": 200,
+        "calories": 706,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_BurgerKing_3",
+        "name": "North Indian Specialty Item 4",
+        "description": "Delicious north indian dish prepared with fresh ingredients.",
+        "price": 448,
+        "calories": 435,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_BurgerKing_4",
+        "name": "North Indian Specialty Item 5",
+        "description": "Delicious north indian dish prepared with fresh ingredients.",
+        "price": 123,
+        "calories": 299,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_BurgerKing_5",
+        "name": "North Indian Specialty Item 6",
+        "description": "Delicious north indian dish prepared with fresh ingredients.",
+        "price": 215,
+        "calories": 403,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_BurgerKing_6",
+        "name": "North Indian Specialty Item 7",
+        "description": "Delicious north indian dish prepared with fresh ingredients.",
+        "price": 255,
+        "calories": 385,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_BurgerKing_7",
+        "name": "North Indian Specialty Item 8",
+        "description": "Delicious north indian dish prepared with fresh ingredients.",
+        "price": 362,
+        "calories": 683,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_BurgerKing_8",
+        "name": "North Indian Specialty Item 9",
+        "description": "Delicious north indian dish prepared with fresh ingredients.",
+        "price": 404,
+        "calories": 268,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_BurgerKing_9",
+        "name": "North Indian Specialty Item 10",
+        "description": "Delicious north indian dish prepared with fresh ingredients.",
+        "price": 99,
+        "calories": 359,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_BurgerKing_10",
+        "name": "North Indian Specialty Item 11",
+        "description": "Delicious north indian dish prepared with fresh ingredients.",
+        "price": 181,
+        "calories": 435,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_BurgerKing_11",
+        "name": "North Indian Specialty Item 12",
+        "description": "Delicious north indian dish prepared with fresh ingredients.",
+        "price": 345,
+        "calories": 224,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "f_12",
+    "name": "Nandhana Palace",
+    "cuisine": "Fast Food",
+    "rating": 4.7,
+    "delivery_time_min": 47,
+    "tags": [
+      "Fast Food",
+      "Bestseller"
+    ],
+    "menu": [
+      {
+        "id": "m_NandhanaPalace_0",
+        "name": "Fast Food Specialty Item 1",
+        "description": "Delicious fast food dish prepared with fresh ingredients.",
+        "price": 182,
+        "calories": 652,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_NandhanaPalace_1",
+        "name": "Fast Food Specialty Item 2",
+        "description": "Delicious fast food dish prepared with fresh ingredients.",
+        "price": 463,
+        "calories": 390,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_NandhanaPalace_2",
+        "name": "Fast Food Specialty Item 3",
+        "description": "Delicious fast food dish prepared with fresh ingredients.",
+        "price": 452,
+        "calories": 664,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_NandhanaPalace_3",
+        "name": "Fast Food Specialty Item 4",
+        "description": "Delicious fast food dish prepared with fresh ingredients.",
+        "price": 395,
+        "calories": 384,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_NandhanaPalace_4",
+        "name": "Fast Food Specialty Item 5",
+        "description": "Delicious fast food dish prepared with fresh ingredients.",
+        "price": 482,
+        "calories": 589,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_NandhanaPalace_5",
+        "name": "Fast Food Specialty Item 6",
+        "description": "Delicious fast food dish prepared with fresh ingredients.",
+        "price": 297,
+        "calories": 305,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_NandhanaPalace_6",
+        "name": "Fast Food Specialty Item 7",
+        "description": "Delicious fast food dish prepared with fresh ingredients.",
+        "price": 311,
+        "calories": 476,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_NandhanaPalace_7",
+        "name": "Fast Food Specialty Item 8",
+        "description": "Delicious fast food dish prepared with fresh ingredients.",
+        "price": 245,
+        "calories": 642,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_NandhanaPalace_8",
+        "name": "Fast Food Specialty Item 9",
+        "description": "Delicious fast food dish prepared with fresh ingredients.",
+        "price": 99,
+        "calories": 416,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_NandhanaPalace_9",
+        "name": "Fast Food Specialty Item 10",
+        "description": "Delicious fast food dish prepared with fresh ingredients.",
+        "price": 101,
+        "calories": 642,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_NandhanaPalace_10",
+        "name": "Fast Food Specialty Item 11",
+        "description": "Delicious fast food dish prepared with fresh ingredients.",
+        "price": 490,
+        "calories": 436,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_NandhanaPalace_11",
+        "name": "Fast Food Specialty Item 12",
+        "description": "Delicious fast food dish prepared with fresh ingredients.",
+        "price": 153,
+        "calories": 439,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_NandhanaPalace_12",
+        "name": "Fast Food Specialty Item 13",
+        "description": "Delicious fast food dish prepared with fresh ingredients.",
+        "price": 297,
+        "calories": 793,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_NandhanaPalace_13",
+        "name": "Fast Food Specialty Item 14",
+        "description": "Delicious fast food dish prepared with fresh ingredients.",
+        "price": 395,
+        "calories": 181,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_NandhanaPalace_14",
+        "name": "Fast Food Specialty Item 15",
+        "description": "Delicious fast food dish prepared with fresh ingredients.",
+        "price": 324,
+        "calories": 672,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_NandhanaPalace_15",
+        "name": "Fast Food Specialty Item 16",
+        "description": "Delicious fast food dish prepared with fresh ingredients.",
+        "price": 103,
+        "calories": 735,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_NandhanaPalace_16",
+        "name": "Fast Food Specialty Item 17",
+        "description": "Delicious fast food dish prepared with fresh ingredients.",
+        "price": 373,
+        "calories": 474,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_NandhanaPalace_17",
+        "name": "Fast Food Specialty Item 18",
+        "description": "Delicious fast food dish prepared with fresh ingredients.",
+        "price": 220,
+        "calories": 370,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_NandhanaPalace_18",
+        "name": "Fast Food Specialty Item 19",
+        "description": "Delicious fast food dish prepared with fresh ingredients.",
+        "price": 443,
+        "calories": 791,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_NandhanaPalace_19",
+        "name": "Fast Food Specialty Item 20",
+        "description": "Delicious fast food dish prepared with fresh ingredients.",
+        "price": 424,
+        "calories": 179,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_NandhanaPalace_20",
+        "name": "Fast Food Specialty Item 21",
+        "description": "Delicious fast food dish prepared with fresh ingredients.",
+        "price": 463,
+        "calories": 624,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_NandhanaPalace_21",
+        "name": "Fast Food Specialty Item 22",
+        "description": "Delicious fast food dish prepared with fresh ingredients.",
+        "price": 241,
+        "calories": 754,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "f_13",
+    "name": "Polar Bear",
+    "cuisine": "Chinese",
+    "rating": 4.8,
+    "delivery_time_min": 44,
+    "tags": [
+      "Chinese",
+      "Bestseller"
+    ],
+    "menu": [
+      {
+        "id": "m_PolarBear_0",
+        "name": "Chinese Specialty Item 1",
+        "description": "Delicious chinese dish prepared with fresh ingredients.",
+        "price": 239,
+        "calories": 527,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_PolarBear_1",
+        "name": "Chinese Specialty Item 2",
+        "description": "Delicious chinese dish prepared with fresh ingredients.",
+        "price": 347,
+        "calories": 382,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_PolarBear_2",
+        "name": "Chinese Specialty Item 3",
+        "description": "Delicious chinese dish prepared with fresh ingredients.",
+        "price": 244,
+        "calories": 549,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_PolarBear_3",
+        "name": "Chinese Specialty Item 4",
+        "description": "Delicious chinese dish prepared with fresh ingredients.",
+        "price": 248,
+        "calories": 291,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_PolarBear_4",
+        "name": "Chinese Specialty Item 5",
+        "description": "Delicious chinese dish prepared with fresh ingredients.",
+        "price": 404,
+        "calories": 206,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_PolarBear_5",
+        "name": "Chinese Specialty Item 6",
+        "description": "Delicious chinese dish prepared with fresh ingredients.",
+        "price": 468,
+        "calories": 200,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_PolarBear_6",
+        "name": "Chinese Specialty Item 7",
+        "description": "Delicious chinese dish prepared with fresh ingredients.",
+        "price": 367,
+        "calories": 384,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_PolarBear_7",
+        "name": "Chinese Specialty Item 8",
+        "description": "Delicious chinese dish prepared with fresh ingredients.",
+        "price": 231,
+        "calories": 208,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_PolarBear_8",
+        "name": "Chinese Specialty Item 9",
+        "description": "Delicious chinese dish prepared with fresh ingredients.",
+        "price": 217,
+        "calories": 504,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_PolarBear_9",
+        "name": "Chinese Specialty Item 10",
+        "description": "Delicious chinese dish prepared with fresh ingredients.",
+        "price": 207,
+        "calories": 712,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_PolarBear_10",
+        "name": "Chinese Specialty Item 11",
+        "description": "Delicious chinese dish prepared with fresh ingredients.",
+        "price": 333,
+        "calories": 420,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_PolarBear_11",
+        "name": "Chinese Specialty Item 12",
+        "description": "Delicious chinese dish prepared with fresh ingredients.",
+        "price": 144,
+        "calories": 547,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_PolarBear_12",
+        "name": "Chinese Specialty Item 13",
+        "description": "Delicious chinese dish prepared with fresh ingredients.",
+        "price": 272,
+        "calories": 449,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "f_14",
+    "name": "Corner House",
+    "cuisine": "American",
+    "rating": 4.3,
+    "delivery_time_min": 26,
+    "tags": [
+      "American",
+      "Bestseller"
+    ],
+    "menu": [
+      {
+        "id": "m_CornerHouse_0",
+        "name": "American Specialty Item 1",
+        "description": "Delicious american dish prepared with fresh ingredients.",
+        "price": 363,
+        "calories": 230,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_CornerHouse_1",
+        "name": "American Specialty Item 2",
+        "description": "Delicious american dish prepared with fresh ingredients.",
+        "price": 114,
+        "calories": 527,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_CornerHouse_2",
+        "name": "American Specialty Item 3",
+        "description": "Delicious american dish prepared with fresh ingredients.",
+        "price": 140,
+        "calories": 562,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_CornerHouse_3",
+        "name": "American Specialty Item 4",
+        "description": "Delicious american dish prepared with fresh ingredients.",
+        "price": 108,
+        "calories": 445,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_CornerHouse_4",
+        "name": "American Specialty Item 5",
+        "description": "Delicious american dish prepared with fresh ingredients.",
+        "price": 314,
+        "calories": 359,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_CornerHouse_5",
+        "name": "American Specialty Item 6",
+        "description": "Delicious american dish prepared with fresh ingredients.",
+        "price": 250,
+        "calories": 509,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_CornerHouse_6",
+        "name": "American Specialty Item 7",
+        "description": "Delicious american dish prepared with fresh ingredients.",
+        "price": 151,
+        "calories": 168,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_CornerHouse_7",
+        "name": "American Specialty Item 8",
+        "description": "Delicious american dish prepared with fresh ingredients.",
+        "price": 495,
+        "calories": 156,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_CornerHouse_8",
+        "name": "American Specialty Item 9",
+        "description": "Delicious american dish prepared with fresh ingredients.",
+        "price": 322,
+        "calories": 444,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_CornerHouse_9",
+        "name": "American Specialty Item 10",
+        "description": "Delicious american dish prepared with fresh ingredients.",
+        "price": 393,
+        "calories": 393,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_CornerHouse_10",
+        "name": "American Specialty Item 11",
+        "description": "Delicious american dish prepared with fresh ingredients.",
+        "price": 198,
+        "calories": 264,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_CornerHouse_11",
+        "name": "American Specialty Item 12",
+        "description": "Delicious american dish prepared with fresh ingredients.",
+        "price": 443,
+        "calories": 778,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_CornerHouse_12",
+        "name": "American Specialty Item 13",
+        "description": "Delicious american dish prepared with fresh ingredients.",
+        "price": 119,
+        "calories": 650,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "f_15",
+    "name": "California Burrito",
+    "cuisine": "American",
+    "rating": 3.9,
+    "delivery_time_min": 46,
+    "tags": [
+      "American",
+      "Bestseller"
+    ],
+    "menu": [
+      {
+        "id": "m_CaliforniaBurrito_0",
+        "name": "American Specialty Item 1",
+        "description": "Delicious american dish prepared with fresh ingredients.",
+        "price": 250,
+        "calories": 598,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_CaliforniaBurrito_1",
+        "name": "American Specialty Item 2",
+        "description": "Delicious american dish prepared with fresh ingredients.",
+        "price": 107,
+        "calories": 336,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_CaliforniaBurrito_2",
+        "name": "American Specialty Item 3",
+        "description": "Delicious american dish prepared with fresh ingredients.",
+        "price": 306,
+        "calories": 499,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_CaliforniaBurrito_3",
+        "name": "American Specialty Item 4",
+        "description": "Delicious american dish prepared with fresh ingredients.",
+        "price": 364,
+        "calories": 565,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_CaliforniaBurrito_4",
+        "name": "American Specialty Item 5",
+        "description": "Delicious american dish prepared with fresh ingredients.",
+        "price": 190,
+        "calories": 756,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_CaliforniaBurrito_5",
+        "name": "American Specialty Item 6",
+        "description": "Delicious american dish prepared with fresh ingredients.",
+        "price": 176,
+        "calories": 207,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_CaliforniaBurrito_6",
+        "name": "American Specialty Item 7",
+        "description": "Delicious american dish prepared with fresh ingredients.",
+        "price": 164,
+        "calories": 498,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_CaliforniaBurrito_7",
+        "name": "American Specialty Item 8",
+        "description": "Delicious american dish prepared with fresh ingredients.",
+        "price": 131,
+        "calories": 636,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_CaliforniaBurrito_8",
+        "name": "American Specialty Item 9",
+        "description": "Delicious american dish prepared with fresh ingredients.",
+        "price": 233,
+        "calories": 586,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_CaliforniaBurrito_9",
+        "name": "American Specialty Item 10",
+        "description": "Delicious american dish prepared with fresh ingredients.",
+        "price": 176,
+        "calories": 676,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_CaliforniaBurrito_10",
+        "name": "American Specialty Item 11",
+        "description": "Delicious american dish prepared with fresh ingredients.",
+        "price": 130,
+        "calories": 533,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_CaliforniaBurrito_11",
+        "name": "American Specialty Item 12",
+        "description": "Delicious american dish prepared with fresh ingredients.",
+        "price": 376,
+        "calories": 473,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_CaliforniaBurrito_12",
+        "name": "American Specialty Item 13",
+        "description": "Delicious american dish prepared with fresh ingredients.",
+        "price": 133,
+        "calories": 789,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_CaliforniaBurrito_13",
+        "name": "American Specialty Item 14",
+        "description": "Delicious american dish prepared with fresh ingredients.",
+        "price": 433,
+        "calories": 281,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_CaliforniaBurrito_14",
+        "name": "American Specialty Item 15",
+        "description": "Delicious american dish prepared with fresh ingredients.",
+        "price": 199,
+        "calories": 606,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_CaliforniaBurrito_15",
+        "name": "American Specialty Item 16",
+        "description": "Delicious american dish prepared with fresh ingredients.",
+        "price": 224,
+        "calories": 524,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_CaliforniaBurrito_16",
+        "name": "American Specialty Item 17",
+        "description": "Delicious american dish prepared with fresh ingredients.",
+        "price": 414,
+        "calories": 702,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_CaliforniaBurrito_17",
+        "name": "American Specialty Item 18",
+        "description": "Delicious american dish prepared with fresh ingredients.",
+        "price": 277,
+        "calories": 648,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_CaliforniaBurrito_18",
+        "name": "American Specialty Item 19",
+        "description": "Delicious american dish prepared with fresh ingredients.",
+        "price": 370,
+        "calories": 298,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_CaliforniaBurrito_19",
+        "name": "American Specialty Item 20",
+        "description": "Delicious american dish prepared with fresh ingredients.",
+        "price": 336,
+        "calories": 654,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_CaliforniaBurrito_20",
+        "name": "American Specialty Item 21",
+        "description": "Delicious american dish prepared with fresh ingredients.",
+        "price": 413,
+        "calories": 382,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_CaliforniaBurrito_21",
+        "name": "American Specialty Item 22",
+        "description": "Delicious american dish prepared with fresh ingredients.",
+        "price": 228,
+        "calories": 247,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_CaliforniaBurrito_22",
+        "name": "American Specialty Item 23",
+        "description": "Delicious american dish prepared with fresh ingredients.",
+        "price": 370,
+        "calories": 269,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_CaliforniaBurrito_23",
+        "name": "American Specialty Item 24",
+        "description": "Delicious american dish prepared with fresh ingredients.",
+        "price": 416,
+        "calories": 768,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "f_16",
+    "name": "Taco Bell",
+    "cuisine": "Desserts",
+    "rating": 3.9,
+    "delivery_time_min": 45,
+    "tags": [
+      "Desserts",
+      "Bestseller"
+    ],
+    "menu": [
+      {
+        "id": "m_TacoBell_0",
+        "name": "Desserts Specialty Item 1",
+        "description": "Delicious desserts dish prepared with fresh ingredients.",
+        "price": 112,
+        "calories": 681,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_TacoBell_1",
+        "name": "Desserts Specialty Item 2",
+        "description": "Delicious desserts dish prepared with fresh ingredients.",
+        "price": 140,
+        "calories": 689,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_TacoBell_2",
+        "name": "Desserts Specialty Item 3",
+        "description": "Delicious desserts dish prepared with fresh ingredients.",
+        "price": 452,
+        "calories": 352,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_TacoBell_3",
+        "name": "Desserts Specialty Item 4",
+        "description": "Delicious desserts dish prepared with fresh ingredients.",
+        "price": 242,
+        "calories": 169,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_TacoBell_4",
+        "name": "Desserts Specialty Item 5",
+        "description": "Delicious desserts dish prepared with fresh ingredients.",
+        "price": 148,
+        "calories": 470,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_TacoBell_5",
+        "name": "Desserts Specialty Item 6",
+        "description": "Delicious desserts dish prepared with fresh ingredients.",
+        "price": 101,
+        "calories": 734,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_TacoBell_6",
+        "name": "Desserts Specialty Item 7",
+        "description": "Delicious desserts dish prepared with fresh ingredients.",
+        "price": 174,
+        "calories": 272,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_TacoBell_7",
+        "name": "Desserts Specialty Item 8",
+        "description": "Delicious desserts dish prepared with fresh ingredients.",
+        "price": 138,
+        "calories": 767,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_TacoBell_8",
+        "name": "Desserts Specialty Item 9",
+        "description": "Delicious desserts dish prepared with fresh ingredients.",
+        "price": 167,
+        "calories": 717,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_TacoBell_9",
+        "name": "Desserts Specialty Item 10",
+        "description": "Delicious desserts dish prepared with fresh ingredients.",
+        "price": 149,
+        "calories": 775,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_TacoBell_10",
+        "name": "Desserts Specialty Item 11",
+        "description": "Delicious desserts dish prepared with fresh ingredients.",
+        "price": 499,
+        "calories": 787,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_TacoBell_11",
+        "name": "Desserts Specialty Item 12",
+        "description": "Delicious desserts dish prepared with fresh ingredients.",
+        "price": 264,
+        "calories": 375,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_TacoBell_12",
+        "name": "Desserts Specialty Item 13",
+        "description": "Delicious desserts dish prepared with fresh ingredients.",
+        "price": 389,
+        "calories": 162,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_TacoBell_13",
+        "name": "Desserts Specialty Item 14",
+        "description": "Delicious desserts dish prepared with fresh ingredients.",
+        "price": 384,
+        "calories": 373,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_TacoBell_14",
+        "name": "Desserts Specialty Item 15",
+        "description": "Delicious desserts dish prepared with fresh ingredients.",
+        "price": 240,
+        "calories": 552,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_TacoBell_15",
+        "name": "Desserts Specialty Item 16",
+        "description": "Delicious desserts dish prepared with fresh ingredients.",
+        "price": 258,
+        "calories": 604,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_TacoBell_16",
+        "name": "Desserts Specialty Item 17",
+        "description": "Delicious desserts dish prepared with fresh ingredients.",
+        "price": 392,
+        "calories": 588,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_TacoBell_17",
+        "name": "Desserts Specialty Item 18",
+        "description": "Delicious desserts dish prepared with fresh ingredients.",
+        "price": 237,
+        "calories": 450,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_TacoBell_18",
+        "name": "Desserts Specialty Item 19",
+        "description": "Delicious desserts dish prepared with fresh ingredients.",
+        "price": 226,
+        "calories": 667,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_TacoBell_19",
+        "name": "Desserts Specialty Item 20",
+        "description": "Delicious desserts dish prepared with fresh ingredients.",
+        "price": 420,
+        "calories": 634,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_TacoBell_20",
+        "name": "Desserts Specialty Item 21",
+        "description": "Delicious desserts dish prepared with fresh ingredients.",
+        "price": 244,
+        "calories": 515,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_TacoBell_21",
+        "name": "Desserts Specialty Item 22",
+        "description": "Delicious desserts dish prepared with fresh ingredients.",
+        "price": 437,
+        "calories": 723,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_TacoBell_22",
+        "name": "Desserts Specialty Item 23",
+        "description": "Delicious desserts dish prepared with fresh ingredients.",
+        "price": 143,
+        "calories": 341,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_TacoBell_23",
+        "name": "Desserts Specialty Item 24",
+        "description": "Delicious desserts dish prepared with fresh ingredients.",
+        "price": 225,
+        "calories": 664,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_TacoBell_24",
+        "name": "Desserts Specialty Item 25",
+        "description": "Delicious desserts dish prepared with fresh ingredients.",
+        "price": 294,
+        "calories": 359,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "f_17",
+    "name": "Beijing Bites",
+    "cuisine": "North Indian",
+    "rating": 4,
+    "delivery_time_min": 50,
+    "tags": [
+      "North Indian",
+      "Bestseller"
+    ],
+    "menu": [
+      {
+        "id": "m_BeijingBites_0",
+        "name": "North Indian Specialty Item 1",
+        "description": "Delicious north indian dish prepared with fresh ingredients.",
+        "price": 482,
+        "calories": 780,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_BeijingBites_1",
+        "name": "North Indian Specialty Item 2",
+        "description": "Delicious north indian dish prepared with fresh ingredients.",
+        "price": 438,
+        "calories": 209,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_BeijingBites_2",
+        "name": "North Indian Specialty Item 3",
+        "description": "Delicious north indian dish prepared with fresh ingredients.",
+        "price": 262,
+        "calories": 469,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_BeijingBites_3",
+        "name": "North Indian Specialty Item 4",
+        "description": "Delicious north indian dish prepared with fresh ingredients.",
+        "price": 262,
+        "calories": 208,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_BeijingBites_4",
+        "name": "North Indian Specialty Item 5",
+        "description": "Delicious north indian dish prepared with fresh ingredients.",
+        "price": 469,
+        "calories": 787,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_BeijingBites_5",
+        "name": "North Indian Specialty Item 6",
+        "description": "Delicious north indian dish prepared with fresh ingredients.",
+        "price": 310,
+        "calories": 489,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_BeijingBites_6",
+        "name": "North Indian Specialty Item 7",
+        "description": "Delicious north indian dish prepared with fresh ingredients.",
+        "price": 228,
+        "calories": 723,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_BeijingBites_7",
+        "name": "North Indian Specialty Item 8",
+        "description": "Delicious north indian dish prepared with fresh ingredients.",
+        "price": 420,
+        "calories": 391,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_BeijingBites_8",
+        "name": "North Indian Specialty Item 9",
+        "description": "Delicious north indian dish prepared with fresh ingredients.",
+        "price": 402,
+        "calories": 493,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_BeijingBites_9",
+        "name": "North Indian Specialty Item 10",
+        "description": "Delicious north indian dish prepared with fresh ingredients.",
+        "price": 264,
+        "calories": 560,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_BeijingBites_10",
+        "name": "North Indian Specialty Item 11",
+        "description": "Delicious north indian dish prepared with fresh ingredients.",
+        "price": 266,
+        "calories": 775,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "f_18",
+    "name": "Mainland China",
+    "cuisine": "Italian",
+    "rating": 3.8,
+    "delivery_time_min": 45,
+    "tags": [
+      "Italian",
+      "Bestseller"
+    ],
+    "menu": [
+      {
+        "id": "m_MainlandChina_0",
+        "name": "Italian Specialty Item 1",
+        "description": "Delicious italian dish prepared with fresh ingredients.",
+        "price": 415,
+        "calories": 465,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_MainlandChina_1",
+        "name": "Italian Specialty Item 2",
+        "description": "Delicious italian dish prepared with fresh ingredients.",
+        "price": 171,
+        "calories": 265,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_MainlandChina_2",
+        "name": "Italian Specialty Item 3",
+        "description": "Delicious italian dish prepared with fresh ingredients.",
+        "price": 361,
+        "calories": 231,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_MainlandChina_3",
+        "name": "Italian Specialty Item 4",
+        "description": "Delicious italian dish prepared with fresh ingredients.",
+        "price": 438,
+        "calories": 643,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_MainlandChina_4",
+        "name": "Italian Specialty Item 5",
+        "description": "Delicious italian dish prepared with fresh ingredients.",
+        "price": 222,
+        "calories": 600,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_MainlandChina_5",
+        "name": "Italian Specialty Item 6",
+        "description": "Delicious italian dish prepared with fresh ingredients.",
+        "price": 385,
+        "calories": 649,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_MainlandChina_6",
+        "name": "Italian Specialty Item 7",
+        "description": "Delicious italian dish prepared with fresh ingredients.",
+        "price": 481,
+        "calories": 752,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_MainlandChina_7",
+        "name": "Italian Specialty Item 8",
+        "description": "Delicious italian dish prepared with fresh ingredients.",
+        "price": 152,
+        "calories": 503,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_MainlandChina_8",
+        "name": "Italian Specialty Item 9",
+        "description": "Delicious italian dish prepared with fresh ingredients.",
+        "price": 224,
+        "calories": 334,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_MainlandChina_9",
+        "name": "Italian Specialty Item 10",
+        "description": "Delicious italian dish prepared with fresh ingredients.",
+        "price": 466,
+        "calories": 403,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_MainlandChina_10",
+        "name": "Italian Specialty Item 11",
+        "description": "Delicious italian dish prepared with fresh ingredients.",
+        "price": 230,
+        "calories": 742,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_MainlandChina_11",
+        "name": "Italian Specialty Item 12",
+        "description": "Delicious italian dish prepared with fresh ingredients.",
+        "price": 172,
+        "calories": 664,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_MainlandChina_12",
+        "name": "Italian Specialty Item 13",
+        "description": "Delicious italian dish prepared with fresh ingredients.",
+        "price": 391,
+        "calories": 330,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_MainlandChina_13",
+        "name": "Italian Specialty Item 14",
+        "description": "Delicious italian dish prepared with fresh ingredients.",
+        "price": 291,
+        "calories": 218,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_MainlandChina_14",
+        "name": "Italian Specialty Item 15",
+        "description": "Delicious italian dish prepared with fresh ingredients.",
+        "price": 424,
+        "calories": 438,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_MainlandChina_15",
+        "name": "Italian Specialty Item 16",
+        "description": "Delicious italian dish prepared with fresh ingredients.",
+        "price": 150,
+        "calories": 503,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "f_19",
+    "name": "Hole in the Wall",
+    "cuisine": "Chinese",
+    "rating": 3.7,
+    "delivery_time_min": 48,
+    "tags": [
+      "Chinese",
+      "Bestseller"
+    ],
+    "menu": [
+      {
+        "id": "m_HoleintheWall_0",
+        "name": "Chinese Specialty Item 1",
+        "description": "Delicious chinese dish prepared with fresh ingredients.",
+        "price": 249,
+        "calories": 193,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_HoleintheWall_1",
+        "name": "Chinese Specialty Item 2",
+        "description": "Delicious chinese dish prepared with fresh ingredients.",
+        "price": 219,
+        "calories": 297,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_HoleintheWall_2",
+        "name": "Chinese Specialty Item 3",
+        "description": "Delicious chinese dish prepared with fresh ingredients.",
+        "price": 364,
+        "calories": 479,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_HoleintheWall_3",
+        "name": "Chinese Specialty Item 4",
+        "description": "Delicious chinese dish prepared with fresh ingredients.",
+        "price": 328,
+        "calories": 603,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_HoleintheWall_4",
+        "name": "Chinese Specialty Item 5",
+        "description": "Delicious chinese dish prepared with fresh ingredients.",
+        "price": 197,
+        "calories": 509,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_HoleintheWall_5",
+        "name": "Chinese Specialty Item 6",
+        "description": "Delicious chinese dish prepared with fresh ingredients.",
+        "price": 486,
+        "calories": 611,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_HoleintheWall_6",
+        "name": "Chinese Specialty Item 7",
+        "description": "Delicious chinese dish prepared with fresh ingredients.",
+        "price": 254,
+        "calories": 595,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_HoleintheWall_7",
+        "name": "Chinese Specialty Item 8",
+        "description": "Delicious chinese dish prepared with fresh ingredients.",
+        "price": 164,
+        "calories": 602,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_HoleintheWall_8",
+        "name": "Chinese Specialty Item 9",
+        "description": "Delicious chinese dish prepared with fresh ingredients.",
+        "price": 256,
+        "calories": 769,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_HoleintheWall_9",
+        "name": "Chinese Specialty Item 10",
+        "description": "Delicious chinese dish prepared with fresh ingredients.",
+        "price": 216,
+        "calories": 607,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_HoleintheWall_10",
+        "name": "Chinese Specialty Item 11",
+        "description": "Delicious chinese dish prepared with fresh ingredients.",
+        "price": 302,
+        "calories": 599,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_HoleintheWall_11",
+        "name": "Chinese Specialty Item 12",
+        "description": "Delicious chinese dish prepared with fresh ingredients.",
+        "price": 281,
+        "calories": 499,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "f_20",
+    "name": "FreshMenu",
+    "cuisine": "Fast Food",
+    "rating": 4.6,
+    "delivery_time_min": 30,
+    "tags": [
+      "Fast Food",
+      "Bestseller"
+    ],
+    "menu": [
+      {
+        "id": "m_FreshMenu_0",
+        "name": "Fast Food Specialty Item 1",
+        "description": "Delicious fast food dish prepared with fresh ingredients.",
+        "price": 460,
+        "calories": 788,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_FreshMenu_1",
+        "name": "Fast Food Specialty Item 2",
+        "description": "Delicious fast food dish prepared with fresh ingredients.",
+        "price": 324,
+        "calories": 679,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_FreshMenu_2",
+        "name": "Fast Food Specialty Item 3",
+        "description": "Delicious fast food dish prepared with fresh ingredients.",
+        "price": 463,
+        "calories": 293,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_FreshMenu_3",
+        "name": "Fast Food Specialty Item 4",
+        "description": "Delicious fast food dish prepared with fresh ingredients.",
+        "price": 358,
+        "calories": 316,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_FreshMenu_4",
+        "name": "Fast Food Specialty Item 5",
+        "description": "Delicious fast food dish prepared with fresh ingredients.",
+        "price": 212,
+        "calories": 399,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_FreshMenu_5",
+        "name": "Fast Food Specialty Item 6",
+        "description": "Delicious fast food dish prepared with fresh ingredients.",
+        "price": 405,
+        "calories": 627,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_FreshMenu_6",
+        "name": "Fast Food Specialty Item 7",
+        "description": "Delicious fast food dish prepared with fresh ingredients.",
+        "price": 425,
+        "calories": 512,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_FreshMenu_7",
+        "name": "Fast Food Specialty Item 8",
+        "description": "Delicious fast food dish prepared with fresh ingredients.",
+        "price": 191,
+        "calories": 328,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_FreshMenu_8",
+        "name": "Fast Food Specialty Item 9",
+        "description": "Delicious fast food dish prepared with fresh ingredients.",
+        "price": 407,
+        "calories": 713,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_FreshMenu_9",
+        "name": "Fast Food Specialty Item 10",
+        "description": "Delicious fast food dish prepared with fresh ingredients.",
+        "price": 498,
+        "calories": 656,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_FreshMenu_10",
+        "name": "Fast Food Specialty Item 11",
+        "description": "Delicious fast food dish prepared with fresh ingredients.",
+        "price": 353,
+        "calories": 461,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_FreshMenu_11",
+        "name": "Fast Food Specialty Item 12",
+        "description": "Delicious fast food dish prepared with fresh ingredients.",
+        "price": 190,
+        "calories": 236,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_FreshMenu_12",
+        "name": "Fast Food Specialty Item 13",
+        "description": "Delicious fast food dish prepared with fresh ingredients.",
+        "price": 153,
+        "calories": 402,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_FreshMenu_13",
+        "name": "Fast Food Specialty Item 14",
+        "description": "Delicious fast food dish prepared with fresh ingredients.",
+        "price": 129,
+        "calories": 436,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_FreshMenu_14",
+        "name": "Fast Food Specialty Item 15",
+        "description": "Delicious fast food dish prepared with fresh ingredients.",
+        "price": 176,
+        "calories": 619,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_FreshMenu_15",
+        "name": "Fast Food Specialty Item 16",
+        "description": "Delicious fast food dish prepared with fresh ingredients.",
+        "price": 415,
+        "calories": 379,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_FreshMenu_16",
+        "name": "Fast Food Specialty Item 17",
+        "description": "Delicious fast food dish prepared with fresh ingredients.",
+        "price": 307,
+        "calories": 572,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_FreshMenu_17",
+        "name": "Fast Food Specialty Item 18",
+        "description": "Delicious fast food dish prepared with fresh ingredients.",
+        "price": 256,
+        "calories": 343,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_FreshMenu_18",
+        "name": "Fast Food Specialty Item 19",
+        "description": "Delicious fast food dish prepared with fresh ingredients.",
+        "price": 138,
+        "calories": 365,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_FreshMenu_19",
+        "name": "Fast Food Specialty Item 20",
+        "description": "Delicious fast food dish prepared with fresh ingredients.",
+        "price": 390,
+        "calories": 334,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_FreshMenu_20",
+        "name": "Fast Food Specialty Item 21",
+        "description": "Delicious fast food dish prepared with fresh ingredients.",
+        "price": 361,
+        "calories": 466,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_FreshMenu_21",
+        "name": "Fast Food Specialty Item 22",
+        "description": "Delicious fast food dish prepared with fresh ingredients.",
+        "price": 320,
+        "calories": 438,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_FreshMenu_22",
+        "name": "Fast Food Specialty Item 23",
+        "description": "Delicious fast food dish prepared with fresh ingredients.",
+        "price": 314,
+        "calories": 194,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "f_21",
+    "name": "EatFit",
+    "cuisine": "Italian",
+    "rating": 3.8,
+    "delivery_time_min": 16,
+    "tags": [
+      "Italian",
+      "Bestseller"
+    ],
+    "menu": [
+      {
+        "id": "m_EatFit_0",
+        "name": "Italian Specialty Item 1",
+        "description": "Delicious italian dish prepared with fresh ingredients.",
+        "price": 226,
+        "calories": 792,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_EatFit_1",
+        "name": "Italian Specialty Item 2",
+        "description": "Delicious italian dish prepared with fresh ingredients.",
+        "price": 322,
+        "calories": 587,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_EatFit_2",
+        "name": "Italian Specialty Item 3",
+        "description": "Delicious italian dish prepared with fresh ingredients.",
+        "price": 312,
+        "calories": 506,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_EatFit_3",
+        "name": "Italian Specialty Item 4",
+        "description": "Delicious italian dish prepared with fresh ingredients.",
+        "price": 335,
+        "calories": 630,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_EatFit_4",
+        "name": "Italian Specialty Item 5",
+        "description": "Delicious italian dish prepared with fresh ingredients.",
+        "price": 202,
+        "calories": 472,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_EatFit_5",
+        "name": "Italian Specialty Item 6",
+        "description": "Delicious italian dish prepared with fresh ingredients.",
+        "price": 191,
+        "calories": 380,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_EatFit_6",
+        "name": "Italian Specialty Item 7",
+        "description": "Delicious italian dish prepared with fresh ingredients.",
+        "price": 474,
+        "calories": 251,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_EatFit_7",
+        "name": "Italian Specialty Item 8",
+        "description": "Delicious italian dish prepared with fresh ingredients.",
+        "price": 392,
+        "calories": 607,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_EatFit_8",
+        "name": "Italian Specialty Item 9",
+        "description": "Delicious italian dish prepared with fresh ingredients.",
+        "price": 415,
+        "calories": 771,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_EatFit_9",
+        "name": "Italian Specialty Item 10",
+        "description": "Delicious italian dish prepared with fresh ingredients.",
+        "price": 121,
+        "calories": 213,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_EatFit_10",
+        "name": "Italian Specialty Item 11",
+        "description": "Delicious italian dish prepared with fresh ingredients.",
+        "price": 405,
+        "calories": 277,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_EatFit_11",
+        "name": "Italian Specialty Item 12",
+        "description": "Delicious italian dish prepared with fresh ingredients.",
+        "price": 260,
+        "calories": 621,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_EatFit_12",
+        "name": "Italian Specialty Item 13",
+        "description": "Delicious italian dish prepared with fresh ingredients.",
+        "price": 156,
+        "calories": 375,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_EatFit_13",
+        "name": "Italian Specialty Item 14",
+        "description": "Delicious italian dish prepared with fresh ingredients.",
+        "price": 231,
+        "calories": 614,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_EatFit_14",
+        "name": "Italian Specialty Item 15",
+        "description": "Delicious italian dish prepared with fresh ingredients.",
+        "price": 246,
+        "calories": 452,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_EatFit_15",
+        "name": "Italian Specialty Item 16",
+        "description": "Delicious italian dish prepared with fresh ingredients.",
+        "price": 319,
+        "calories": 770,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_EatFit_16",
+        "name": "Italian Specialty Item 17",
+        "description": "Delicious italian dish prepared with fresh ingredients.",
+        "price": 481,
+        "calories": 677,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_EatFit_17",
+        "name": "Italian Specialty Item 18",
+        "description": "Delicious italian dish prepared with fresh ingredients.",
+        "price": 349,
+        "calories": 352,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_EatFit_18",
+        "name": "Italian Specialty Item 19",
+        "description": "Delicious italian dish prepared with fresh ingredients.",
+        "price": 462,
+        "calories": 404,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_EatFit_19",
+        "name": "Italian Specialty Item 20",
+        "description": "Delicious italian dish prepared with fresh ingredients.",
+        "price": 474,
+        "calories": 343,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_EatFit_20",
+        "name": "Italian Specialty Item 21",
+        "description": "Delicious italian dish prepared with fresh ingredients.",
+        "price": 243,
+        "calories": 460,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_EatFit_21",
+        "name": "Italian Specialty Item 22",
+        "description": "Delicious italian dish prepared with fresh ingredients.",
+        "price": 226,
+        "calories": 209,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_EatFit_22",
+        "name": "Italian Specialty Item 23",
+        "description": "Delicious italian dish prepared with fresh ingredients.",
+        "price": 210,
+        "calories": 429,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_EatFit_23",
+        "name": "Italian Specialty Item 24",
+        "description": "Delicious italian dish prepared with fresh ingredients.",
+        "price": 321,
+        "calories": 273,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_EatFit_24",
+        "name": "Italian Specialty Item 25",
+        "description": "Delicious italian dish prepared with fresh ingredients.",
+        "price": 314,
+        "calories": 665,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "f_22",
+    "name": "Bowl Company",
+    "cuisine": "South Indian",
+    "rating": 4.6,
+    "delivery_time_min": 38,
+    "tags": [
+      "South Indian",
+      "Bestseller"
+    ],
+    "menu": [
+      {
+        "id": "m_BowlCompany_0",
+        "name": "South Indian Specialty Item 1",
+        "description": "Delicious south indian dish prepared with fresh ingredients.",
+        "price": 333,
+        "calories": 714,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_BowlCompany_1",
+        "name": "South Indian Specialty Item 2",
+        "description": "Delicious south indian dish prepared with fresh ingredients.",
+        "price": 458,
+        "calories": 237,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_BowlCompany_2",
+        "name": "South Indian Specialty Item 3",
+        "description": "Delicious south indian dish prepared with fresh ingredients.",
+        "price": 492,
+        "calories": 258,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_BowlCompany_3",
+        "name": "South Indian Specialty Item 4",
+        "description": "Delicious south indian dish prepared with fresh ingredients.",
+        "price": 325,
+        "calories": 428,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_BowlCompany_4",
+        "name": "South Indian Specialty Item 5",
+        "description": "Delicious south indian dish prepared with fresh ingredients.",
+        "price": 439,
+        "calories": 281,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_BowlCompany_5",
+        "name": "South Indian Specialty Item 6",
+        "description": "Delicious south indian dish prepared with fresh ingredients.",
+        "price": 225,
+        "calories": 720,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_BowlCompany_6",
+        "name": "South Indian Specialty Item 7",
+        "description": "Delicious south indian dish prepared with fresh ingredients.",
+        "price": 217,
+        "calories": 581,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_BowlCompany_7",
+        "name": "South Indian Specialty Item 8",
+        "description": "Delicious south indian dish prepared with fresh ingredients.",
+        "price": 317,
+        "calories": 626,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_BowlCompany_8",
+        "name": "South Indian Specialty Item 9",
+        "description": "Delicious south indian dish prepared with fresh ingredients.",
+        "price": 464,
+        "calories": 635,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_BowlCompany_9",
+        "name": "South Indian Specialty Item 10",
+        "description": "Delicious south indian dish prepared with fresh ingredients.",
+        "price": 121,
+        "calories": 349,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_BowlCompany_10",
+        "name": "South Indian Specialty Item 11",
+        "description": "Delicious south indian dish prepared with fresh ingredients.",
+        "price": 362,
+        "calories": 538,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_BowlCompany_11",
+        "name": "South Indian Specialty Item 12",
+        "description": "Delicious south indian dish prepared with fresh ingredients.",
+        "price": 180,
+        "calories": 258,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "f_23",
+    "name": "Faasos",
+    "cuisine": "Fast Food",
+    "rating": 4.8,
+    "delivery_time_min": 23,
+    "tags": [
+      "Fast Food",
+      "Bestseller"
+    ],
+    "menu": [
+      {
+        "id": "m_Faasos_0",
+        "name": "Fast Food Specialty Item 1",
+        "description": "Delicious fast food dish prepared with fresh ingredients.",
+        "price": 427,
+        "calories": 252,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_Faasos_1",
+        "name": "Fast Food Specialty Item 2",
+        "description": "Delicious fast food dish prepared with fresh ingredients.",
+        "price": 126,
+        "calories": 435,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_Faasos_2",
+        "name": "Fast Food Specialty Item 3",
+        "description": "Delicious fast food dish prepared with fresh ingredients.",
+        "price": 407,
+        "calories": 671,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_Faasos_3",
+        "name": "Fast Food Specialty Item 4",
+        "description": "Delicious fast food dish prepared with fresh ingredients.",
+        "price": 333,
+        "calories": 771,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_Faasos_4",
+        "name": "Fast Food Specialty Item 5",
+        "description": "Delicious fast food dish prepared with fresh ingredients.",
+        "price": 445,
+        "calories": 313,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_Faasos_5",
+        "name": "Fast Food Specialty Item 6",
+        "description": "Delicious fast food dish prepared with fresh ingredients.",
+        "price": 346,
+        "calories": 452,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_Faasos_6",
+        "name": "Fast Food Specialty Item 7",
+        "description": "Delicious fast food dish prepared with fresh ingredients.",
+        "price": 209,
+        "calories": 199,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_Faasos_7",
+        "name": "Fast Food Specialty Item 8",
+        "description": "Delicious fast food dish prepared with fresh ingredients.",
+        "price": 367,
+        "calories": 426,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_Faasos_8",
+        "name": "Fast Food Specialty Item 9",
+        "description": "Delicious fast food dish prepared with fresh ingredients.",
+        "price": 183,
+        "calories": 338,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_Faasos_9",
+        "name": "Fast Food Specialty Item 10",
+        "description": "Delicious fast food dish prepared with fresh ingredients.",
+        "price": 429,
+        "calories": 341,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_Faasos_10",
+        "name": "Fast Food Specialty Item 11",
+        "description": "Delicious fast food dish prepared with fresh ingredients.",
+        "price": 353,
+        "calories": 434,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_Faasos_11",
+        "name": "Fast Food Specialty Item 12",
+        "description": "Delicious fast food dish prepared with fresh ingredients.",
+        "price": 142,
+        "calories": 657,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_Faasos_12",
+        "name": "Fast Food Specialty Item 13",
+        "description": "Delicious fast food dish prepared with fresh ingredients.",
+        "price": 363,
+        "calories": 320,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_Faasos_13",
+        "name": "Fast Food Specialty Item 14",
+        "description": "Delicious fast food dish prepared with fresh ingredients.",
+        "price": 248,
+        "calories": 342,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_Faasos_14",
+        "name": "Fast Food Specialty Item 15",
+        "description": "Delicious fast food dish prepared with fresh ingredients.",
+        "price": 177,
+        "calories": 480,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_Faasos_15",
+        "name": "Fast Food Specialty Item 16",
+        "description": "Delicious fast food dish prepared with fresh ingredients.",
+        "price": 166,
+        "calories": 678,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_Faasos_16",
+        "name": "Fast Food Specialty Item 17",
+        "description": "Delicious fast food dish prepared with fresh ingredients.",
+        "price": 444,
+        "calories": 530,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_Faasos_17",
+        "name": "Fast Food Specialty Item 18",
+        "description": "Delicious fast food dish prepared with fresh ingredients.",
+        "price": 253,
+        "calories": 560,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "f_24",
+    "name": "Behrouz Biryani",
+    "cuisine": "South Indian",
+    "rating": 4.3,
+    "delivery_time_min": 25,
+    "tags": [
+      "South Indian",
+      "Bestseller"
+    ],
+    "menu": [
+      {
+        "id": "m_BehrouzBiryani_0",
+        "name": "South Indian Specialty Item 1",
+        "description": "Delicious south indian dish prepared with fresh ingredients.",
+        "price": 139,
+        "calories": 219,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_BehrouzBiryani_1",
+        "name": "South Indian Specialty Item 2",
+        "description": "Delicious south indian dish prepared with fresh ingredients.",
+        "price": 460,
+        "calories": 447,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_BehrouzBiryani_2",
+        "name": "South Indian Specialty Item 3",
+        "description": "Delicious south indian dish prepared with fresh ingredients.",
+        "price": 388,
+        "calories": 153,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_BehrouzBiryani_3",
+        "name": "South Indian Specialty Item 4",
+        "description": "Delicious south indian dish prepared with fresh ingredients.",
+        "price": 336,
+        "calories": 286,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_BehrouzBiryani_4",
+        "name": "South Indian Specialty Item 5",
+        "description": "Delicious south indian dish prepared with fresh ingredients.",
+        "price": 144,
+        "calories": 321,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_BehrouzBiryani_5",
+        "name": "South Indian Specialty Item 6",
+        "description": "Delicious south indian dish prepared with fresh ingredients.",
+        "price": 173,
+        "calories": 362,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_BehrouzBiryani_6",
+        "name": "South Indian Specialty Item 7",
+        "description": "Delicious south indian dish prepared with fresh ingredients.",
+        "price": 430,
+        "calories": 509,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_BehrouzBiryani_7",
+        "name": "South Indian Specialty Item 8",
+        "description": "Delicious south indian dish prepared with fresh ingredients.",
+        "price": 195,
+        "calories": 715,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_BehrouzBiryani_8",
+        "name": "South Indian Specialty Item 9",
+        "description": "Delicious south indian dish prepared with fresh ingredients.",
+        "price": 162,
+        "calories": 761,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_BehrouzBiryani_9",
+        "name": "South Indian Specialty Item 10",
+        "description": "Delicious south indian dish prepared with fresh ingredients.",
+        "price": 119,
+        "calories": 495,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_BehrouzBiryani_10",
+        "name": "South Indian Specialty Item 11",
+        "description": "Delicious south indian dish prepared with fresh ingredients.",
+        "price": 184,
+        "calories": 685,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_BehrouzBiryani_11",
+        "name": "South Indian Specialty Item 12",
+        "description": "Delicious south indian dish prepared with fresh ingredients.",
+        "price": 403,
+        "calories": 688,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_BehrouzBiryani_12",
+        "name": "South Indian Specialty Item 13",
+        "description": "Delicious south indian dish prepared with fresh ingredients.",
+        "price": 253,
+        "calories": 698,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_BehrouzBiryani_13",
+        "name": "South Indian Specialty Item 14",
+        "description": "Delicious south indian dish prepared with fresh ingredients.",
+        "price": 213,
+        "calories": 352,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_BehrouzBiryani_14",
+        "name": "South Indian Specialty Item 15",
+        "description": "Delicious south indian dish prepared with fresh ingredients.",
+        "price": 122,
+        "calories": 218,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "f_25",
+    "name": "Ovenstory",
+    "cuisine": "Desserts",
+    "rating": 4,
+    "delivery_time_min": 23,
+    "tags": [
+      "Desserts",
+      "Bestseller"
+    ],
+    "menu": [
+      {
+        "id": "m_Ovenstory_0",
+        "name": "Desserts Specialty Item 1",
+        "description": "Delicious desserts dish prepared with fresh ingredients.",
+        "price": 126,
+        "calories": 432,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_Ovenstory_1",
+        "name": "Desserts Specialty Item 2",
+        "description": "Delicious desserts dish prepared with fresh ingredients.",
+        "price": 187,
+        "calories": 651,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_Ovenstory_2",
+        "name": "Desserts Specialty Item 3",
+        "description": "Delicious desserts dish prepared with fresh ingredients.",
+        "price": 261,
+        "calories": 498,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_Ovenstory_3",
+        "name": "Desserts Specialty Item 4",
+        "description": "Delicious desserts dish prepared with fresh ingredients.",
+        "price": 444,
+        "calories": 224,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_Ovenstory_4",
+        "name": "Desserts Specialty Item 5",
+        "description": "Delicious desserts dish prepared with fresh ingredients.",
+        "price": 232,
+        "calories": 406,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_Ovenstory_5",
+        "name": "Desserts Specialty Item 6",
+        "description": "Delicious desserts dish prepared with fresh ingredients.",
+        "price": 458,
+        "calories": 522,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_Ovenstory_6",
+        "name": "Desserts Specialty Item 7",
+        "description": "Delicious desserts dish prepared with fresh ingredients.",
+        "price": 203,
+        "calories": 563,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_Ovenstory_7",
+        "name": "Desserts Specialty Item 8",
+        "description": "Delicious desserts dish prepared with fresh ingredients.",
+        "price": 391,
+        "calories": 163,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_Ovenstory_8",
+        "name": "Desserts Specialty Item 9",
+        "description": "Delicious desserts dish prepared with fresh ingredients.",
+        "price": 408,
+        "calories": 255,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_Ovenstory_9",
+        "name": "Desserts Specialty Item 10",
+        "description": "Delicious desserts dish prepared with fresh ingredients.",
+        "price": 358,
+        "calories": 395,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_Ovenstory_10",
+        "name": "Desserts Specialty Item 11",
+        "description": "Delicious desserts dish prepared with fresh ingredients.",
+        "price": 153,
+        "calories": 543,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_Ovenstory_11",
+        "name": "Desserts Specialty Item 12",
+        "description": "Delicious desserts dish prepared with fresh ingredients.",
+        "price": 170,
+        "calories": 702,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "f_26",
+    "name": "Kanti Sweets",
+    "cuisine": "American",
+    "rating": 4,
+    "delivery_time_min": 37,
+    "tags": [
+      "American",
+      "Bestseller"
+    ],
+    "menu": [
+      {
+        "id": "m_KantiSweets_0",
+        "name": "American Specialty Item 1",
+        "description": "Delicious american dish prepared with fresh ingredients.",
+        "price": 217,
+        "calories": 768,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_KantiSweets_1",
+        "name": "American Specialty Item 2",
+        "description": "Delicious american dish prepared with fresh ingredients.",
+        "price": 276,
+        "calories": 424,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_KantiSweets_2",
+        "name": "American Specialty Item 3",
+        "description": "Delicious american dish prepared with fresh ingredients.",
+        "price": 352,
+        "calories": 321,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_KantiSweets_3",
+        "name": "American Specialty Item 4",
+        "description": "Delicious american dish prepared with fresh ingredients.",
+        "price": 485,
+        "calories": 532,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_KantiSweets_4",
+        "name": "American Specialty Item 5",
+        "description": "Delicious american dish prepared with fresh ingredients.",
+        "price": 358,
+        "calories": 768,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_KantiSweets_5",
+        "name": "American Specialty Item 6",
+        "description": "Delicious american dish prepared with fresh ingredients.",
+        "price": 164,
+        "calories": 658,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_KantiSweets_6",
+        "name": "American Specialty Item 7",
+        "description": "Delicious american dish prepared with fresh ingredients.",
+        "price": 297,
+        "calories": 777,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_KantiSweets_7",
+        "name": "American Specialty Item 8",
+        "description": "Delicious american dish prepared with fresh ingredients.",
+        "price": 385,
+        "calories": 293,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_KantiSweets_8",
+        "name": "American Specialty Item 9",
+        "description": "Delicious american dish prepared with fresh ingredients.",
+        "price": 279,
+        "calories": 755,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_KantiSweets_9",
+        "name": "American Specialty Item 10",
+        "description": "Delicious american dish prepared with fresh ingredients.",
+        "price": 117,
+        "calories": 483,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_KantiSweets_10",
+        "name": "American Specialty Item 11",
+        "description": "Delicious american dish prepared with fresh ingredients.",
+        "price": 332,
+        "calories": 218,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_KantiSweets_11",
+        "name": "American Specialty Item 12",
+        "description": "Delicious american dish prepared with fresh ingredients.",
+        "price": 344,
+        "calories": 643,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_KantiSweets_12",
+        "name": "American Specialty Item 13",
+        "description": "Delicious american dish prepared with fresh ingredients.",
+        "price": 152,
+        "calories": 685,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_KantiSweets_13",
+        "name": "American Specialty Item 14",
+        "description": "Delicious american dish prepared with fresh ingredients.",
+        "price": 371,
+        "calories": 705,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_KantiSweets_14",
+        "name": "American Specialty Item 15",
+        "description": "Delicious american dish prepared with fresh ingredients.",
+        "price": 180,
+        "calories": 356,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_KantiSweets_15",
+        "name": "American Specialty Item 16",
+        "description": "Delicious american dish prepared with fresh ingredients.",
+        "price": 202,
+        "calories": 418,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_KantiSweets_16",
+        "name": "American Specialty Item 17",
+        "description": "Delicious american dish prepared with fresh ingredients.",
+        "price": 475,
+        "calories": 330,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_KantiSweets_17",
+        "name": "American Specialty Item 18",
+        "description": "Delicious american dish prepared with fresh ingredients.",
+        "price": 362,
+        "calories": 476,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_KantiSweets_18",
+        "name": "American Specialty Item 19",
+        "description": "Delicious american dish prepared with fresh ingredients.",
+        "price": 118,
+        "calories": 250,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "f_27",
+    "name": "Ambur Biryani",
+    "cuisine": "South Indian",
+    "rating": 4.2,
+    "delivery_time_min": 18,
+    "tags": [
+      "South Indian",
+      "Bestseller"
+    ],
+    "menu": [
+      {
+        "id": "m_AmburBiryani_0",
+        "name": "South Indian Specialty Item 1",
+        "description": "Delicious south indian dish prepared with fresh ingredients.",
+        "price": 118,
+        "calories": 158,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_AmburBiryani_1",
+        "name": "South Indian Specialty Item 2",
+        "description": "Delicious south indian dish prepared with fresh ingredients.",
+        "price": 297,
+        "calories": 708,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_AmburBiryani_2",
+        "name": "South Indian Specialty Item 3",
+        "description": "Delicious south indian dish prepared with fresh ingredients.",
+        "price": 250,
+        "calories": 233,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_AmburBiryani_3",
+        "name": "South Indian Specialty Item 4",
+        "description": "Delicious south indian dish prepared with fresh ingredients.",
+        "price": 168,
+        "calories": 635,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_AmburBiryani_4",
+        "name": "South Indian Specialty Item 5",
+        "description": "Delicious south indian dish prepared with fresh ingredients.",
+        "price": 189,
+        "calories": 589,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_AmburBiryani_5",
+        "name": "South Indian Specialty Item 6",
+        "description": "Delicious south indian dish prepared with fresh ingredients.",
+        "price": 318,
+        "calories": 795,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_AmburBiryani_6",
+        "name": "South Indian Specialty Item 7",
+        "description": "Delicious south indian dish prepared with fresh ingredients.",
+        "price": 285,
+        "calories": 767,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_AmburBiryani_7",
+        "name": "South Indian Specialty Item 8",
+        "description": "Delicious south indian dish prepared with fresh ingredients.",
+        "price": 286,
+        "calories": 289,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_AmburBiryani_8",
+        "name": "South Indian Specialty Item 9",
+        "description": "Delicious south indian dish prepared with fresh ingredients.",
+        "price": 259,
+        "calories": 410,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_AmburBiryani_9",
+        "name": "South Indian Specialty Item 10",
+        "description": "Delicious south indian dish prepared with fresh ingredients.",
+        "price": 390,
+        "calories": 746,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_AmburBiryani_10",
+        "name": "South Indian Specialty Item 11",
+        "description": "Delicious south indian dish prepared with fresh ingredients.",
+        "price": 250,
+        "calories": 473,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_AmburBiryani_11",
+        "name": "South Indian Specialty Item 12",
+        "description": "Delicious south indian dish prepared with fresh ingredients.",
+        "price": 419,
+        "calories": 383,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_AmburBiryani_12",
+        "name": "South Indian Specialty Item 13",
+        "description": "Delicious south indian dish prepared with fresh ingredients.",
+        "price": 448,
+        "calories": 462,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_AmburBiryani_13",
+        "name": "South Indian Specialty Item 14",
+        "description": "Delicious south indian dish prepared with fresh ingredients.",
+        "price": 234,
+        "calories": 552,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_AmburBiryani_14",
+        "name": "South Indian Specialty Item 15",
+        "description": "Delicious south indian dish prepared with fresh ingredients.",
+        "price": 176,
+        "calories": 690,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_AmburBiryani_15",
+        "name": "South Indian Specialty Item 16",
+        "description": "Delicious south indian dish prepared with fresh ingredients.",
+        "price": 477,
+        "calories": 664,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_AmburBiryani_16",
+        "name": "South Indian Specialty Item 17",
+        "description": "Delicious south indian dish prepared with fresh ingredients.",
+        "price": 234,
+        "calories": 575,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "f_28",
+    "name": "Mani's Dum Biryani",
+    "cuisine": "Chinese",
+    "rating": 4.3,
+    "delivery_time_min": 51,
+    "tags": [
+      "Chinese",
+      "Bestseller"
+    ],
+    "menu": [
+      {
+        "id": "m_Mani'sDumBiryani_0",
+        "name": "Chinese Specialty Item 1",
+        "description": "Delicious chinese dish prepared with fresh ingredients.",
+        "price": 213,
+        "calories": 261,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_Mani'sDumBiryani_1",
+        "name": "Chinese Specialty Item 2",
+        "description": "Delicious chinese dish prepared with fresh ingredients.",
+        "price": 259,
+        "calories": 783,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_Mani'sDumBiryani_2",
+        "name": "Chinese Specialty Item 3",
+        "description": "Delicious chinese dish prepared with fresh ingredients.",
+        "price": 304,
+        "calories": 311,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_Mani'sDumBiryani_3",
+        "name": "Chinese Specialty Item 4",
+        "description": "Delicious chinese dish prepared with fresh ingredients.",
+        "price": 203,
+        "calories": 348,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_Mani'sDumBiryani_4",
+        "name": "Chinese Specialty Item 5",
+        "description": "Delicious chinese dish prepared with fresh ingredients.",
+        "price": 343,
+        "calories": 328,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_Mani'sDumBiryani_5",
+        "name": "Chinese Specialty Item 6",
+        "description": "Delicious chinese dish prepared with fresh ingredients.",
+        "price": 203,
+        "calories": 727,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_Mani'sDumBiryani_6",
+        "name": "Chinese Specialty Item 7",
+        "description": "Delicious chinese dish prepared with fresh ingredients.",
+        "price": 440,
+        "calories": 445,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_Mani'sDumBiryani_7",
+        "name": "Chinese Specialty Item 8",
+        "description": "Delicious chinese dish prepared with fresh ingredients.",
+        "price": 257,
+        "calories": 407,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_Mani'sDumBiryani_8",
+        "name": "Chinese Specialty Item 9",
+        "description": "Delicious chinese dish prepared with fresh ingredients.",
+        "price": 428,
+        "calories": 394,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_Mani'sDumBiryani_9",
+        "name": "Chinese Specialty Item 10",
+        "description": "Delicious chinese dish prepared with fresh ingredients.",
+        "price": 403,
+        "calories": 712,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_Mani'sDumBiryani_10",
+        "name": "Chinese Specialty Item 11",
+        "description": "Delicious chinese dish prepared with fresh ingredients.",
+        "price": 277,
+        "calories": 248,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_Mani'sDumBiryani_11",
+        "name": "Chinese Specialty Item 12",
+        "description": "Delicious chinese dish prepared with fresh ingredients.",
+        "price": 372,
+        "calories": 204,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_Mani'sDumBiryani_12",
+        "name": "Chinese Specialty Item 13",
+        "description": "Delicious chinese dish prepared with fresh ingredients.",
+        "price": 299,
+        "calories": 710,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_Mani'sDumBiryani_13",
+        "name": "Chinese Specialty Item 14",
+        "description": "Delicious chinese dish prepared with fresh ingredients.",
+        "price": 264,
+        "calories": 648,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_Mani'sDumBiryani_14",
+        "name": "Chinese Specialty Item 15",
+        "description": "Delicious chinese dish prepared with fresh ingredients.",
+        "price": 402,
+        "calories": 665,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_Mani'sDumBiryani_15",
+        "name": "Chinese Specialty Item 16",
+        "description": "Delicious chinese dish prepared with fresh ingredients.",
+        "price": 267,
+        "calories": 455,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_Mani'sDumBiryani_16",
+        "name": "Chinese Specialty Item 17",
+        "description": "Delicious chinese dish prepared with fresh ingredients.",
+        "price": 425,
+        "calories": 514,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_Mani'sDumBiryani_17",
+        "name": "Chinese Specialty Item 18",
+        "description": "Delicious chinese dish prepared with fresh ingredients.",
+        "price": 197,
+        "calories": 444,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_Mani'sDumBiryani_18",
+        "name": "Chinese Specialty Item 19",
+        "description": "Delicious chinese dish prepared with fresh ingredients.",
+        "price": 272,
+        "calories": 353,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_Mani'sDumBiryani_19",
+        "name": "Chinese Specialty Item 20",
+        "description": "Delicious chinese dish prepared with fresh ingredients.",
+        "price": 105,
+        "calories": 672,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_Mani'sDumBiryani_20",
+        "name": "Chinese Specialty Item 21",
+        "description": "Delicious chinese dish prepared with fresh ingredients.",
+        "price": 440,
+        "calories": 554,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_Mani'sDumBiryani_21",
+        "name": "Chinese Specialty Item 22",
+        "description": "Delicious chinese dish prepared with fresh ingredients.",
+        "price": 347,
+        "calories": 589,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_Mani'sDumBiryani_22",
+        "name": "Chinese Specialty Item 23",
+        "description": "Delicious chinese dish prepared with fresh ingredients.",
+        "price": 328,
+        "calories": 406,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_Mani'sDumBiryani_23",
+        "name": "Chinese Specialty Item 24",
+        "description": "Delicious chinese dish prepared with fresh ingredients.",
+        "price": 429,
+        "calories": 676,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "f_29",
+    "name": "Nagarjuna",
+    "cuisine": "American",
+    "rating": 4.5,
+    "delivery_time_min": 43,
+    "tags": [
+      "American",
+      "Bestseller"
+    ],
+    "menu": [
+      {
+        "id": "m_Nagarjuna_0",
+        "name": "American Specialty Item 1",
+        "description": "Delicious american dish prepared with fresh ingredients.",
+        "price": 390,
+        "calories": 540,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_Nagarjuna_1",
+        "name": "American Specialty Item 2",
+        "description": "Delicious american dish prepared with fresh ingredients.",
+        "price": 338,
+        "calories": 414,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_Nagarjuna_2",
+        "name": "American Specialty Item 3",
+        "description": "Delicious american dish prepared with fresh ingredients.",
+        "price": 496,
+        "calories": 608,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_Nagarjuna_3",
+        "name": "American Specialty Item 4",
+        "description": "Delicious american dish prepared with fresh ingredients.",
+        "price": 442,
+        "calories": 410,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_Nagarjuna_4",
+        "name": "American Specialty Item 5",
+        "description": "Delicious american dish prepared with fresh ingredients.",
+        "price": 439,
+        "calories": 780,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_Nagarjuna_5",
+        "name": "American Specialty Item 6",
+        "description": "Delicious american dish prepared with fresh ingredients.",
+        "price": 354,
+        "calories": 412,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_Nagarjuna_6",
+        "name": "American Specialty Item 7",
+        "description": "Delicious american dish prepared with fresh ingredients.",
+        "price": 331,
+        "calories": 605,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_Nagarjuna_7",
+        "name": "American Specialty Item 8",
+        "description": "Delicious american dish prepared with fresh ingredients.",
+        "price": 122,
+        "calories": 257,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_Nagarjuna_8",
+        "name": "American Specialty Item 9",
+        "description": "Delicious american dish prepared with fresh ingredients.",
+        "price": 489,
+        "calories": 298,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_Nagarjuna_9",
+        "name": "American Specialty Item 10",
+        "description": "Delicious american dish prepared with fresh ingredients.",
+        "price": 292,
+        "calories": 457,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_Nagarjuna_10",
+        "name": "American Specialty Item 11",
+        "description": "Delicious american dish prepared with fresh ingredients.",
+        "price": 279,
+        "calories": 171,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "f_30",
+    "name": "Andhra Gunpowder",
+    "cuisine": "Fast Food",
+    "rating": 4.3,
+    "delivery_time_min": 30,
+    "tags": [
+      "Fast Food",
+      "Bestseller"
+    ],
+    "menu": [
+      {
+        "id": "m_AndhraGunpowder_0",
+        "name": "Fast Food Specialty Item 1",
+        "description": "Delicious fast food dish prepared with fresh ingredients.",
+        "price": 237,
+        "calories": 609,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_AndhraGunpowder_1",
+        "name": "Fast Food Specialty Item 2",
+        "description": "Delicious fast food dish prepared with fresh ingredients.",
+        "price": 499,
+        "calories": 702,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_AndhraGunpowder_2",
+        "name": "Fast Food Specialty Item 3",
+        "description": "Delicious fast food dish prepared with fresh ingredients.",
+        "price": 257,
+        "calories": 377,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_AndhraGunpowder_3",
+        "name": "Fast Food Specialty Item 4",
+        "description": "Delicious fast food dish prepared with fresh ingredients.",
+        "price": 470,
+        "calories": 260,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_AndhraGunpowder_4",
+        "name": "Fast Food Specialty Item 5",
+        "description": "Delicious fast food dish prepared with fresh ingredients.",
+        "price": 332,
+        "calories": 220,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_AndhraGunpowder_5",
+        "name": "Fast Food Specialty Item 6",
+        "description": "Delicious fast food dish prepared with fresh ingredients.",
+        "price": 448,
+        "calories": 700,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_AndhraGunpowder_6",
+        "name": "Fast Food Specialty Item 7",
+        "description": "Delicious fast food dish prepared with fresh ingredients.",
+        "price": 112,
+        "calories": 419,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_AndhraGunpowder_7",
+        "name": "Fast Food Specialty Item 8",
+        "description": "Delicious fast food dish prepared with fresh ingredients.",
+        "price": 376,
+        "calories": 498,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_AndhraGunpowder_8",
+        "name": "Fast Food Specialty Item 9",
+        "description": "Delicious fast food dish prepared with fresh ingredients.",
+        "price": 171,
+        "calories": 337,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_AndhraGunpowder_9",
+        "name": "Fast Food Specialty Item 10",
+        "description": "Delicious fast food dish prepared with fresh ingredients.",
+        "price": 419,
+        "calories": 199,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_AndhraGunpowder_10",
+        "name": "Fast Food Specialty Item 11",
+        "description": "Delicious fast food dish prepared with fresh ingredients.",
+        "price": 202,
+        "calories": 196,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_AndhraGunpowder_11",
+        "name": "Fast Food Specialty Item 12",
+        "description": "Delicious fast food dish prepared with fresh ingredients.",
+        "price": 449,
+        "calories": 575,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      },
+      {
+        "id": "m_AndhraGunpowder_12",
+        "name": "Fast Food Specialty Item 13",
+        "description": "Delicious fast food dish prepared with fresh ingredients.",
+        "price": 183,
+        "calories": 440,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_AndhraGunpowder_13",
+        "name": "Fast Food Specialty Item 14",
+        "description": "Delicious fast food dish prepared with fresh ingredients.",
+        "price": 460,
+        "calories": 565,
+        "dietary_tags": [
+          "High-Protein",
+          "Non-Veg"
+        ]
+      },
+      {
+        "id": "m_AndhraGunpowder_14",
+        "name": "Fast Food Specialty Item 15",
+        "description": "Delicious fast food dish prepared with fresh ingredients.",
+        "price": 491,
+        "calories": 491,
+        "dietary_tags": [
+          "Vegetarian"
+        ]
+      }
+    ]
+  }
+]

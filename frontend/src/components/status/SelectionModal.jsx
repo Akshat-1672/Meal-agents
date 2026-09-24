@@ -76,7 +76,12 @@ const SelectionModal = ({ isOpen, onClose, message, mealChoices = [], onSubmit }
                 <span>Your Meal Options ({mealChoices.length})</span>
               </div>
               {mealChoices.map((choice, index) => (
-                <MealChoiceCard key={choice.id || index} choice={choice} index={index} />
+                <MealChoiceCard 
+                  key={choice.id || index} 
+                  choice={choice} 
+                  index={index} 
+                  onSelect={onSubmit}
+                />
               ))}
             </div>
           )}

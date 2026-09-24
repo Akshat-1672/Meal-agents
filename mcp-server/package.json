@@ -1,0 +1,23 @@
+{
+  "name": "swiggy-mcp-server",
+  "version": "1.0.0",
+  "description": "Standalone mock Swiggy MCP server exposing Food, Dineout, and Instamart tools over SSE",
+  "private": true,
+  "scripts": {
+    "dev": "ts-node src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.3",
+    "express": "^4.21.2",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.3",
+    "@types/node": "^22.13.17",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}

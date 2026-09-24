@@ -1,0 +1,452 @@
+[
+  {
+    "id": "do_1",
+    "name": "The Glass House",
+    "cuisine": "North Indian",
+    "rating": 4.8,
+    "avg_cost_for_two": 2945,
+    "tags": [
+      "Date Night",
+      "Date Night"
+    ],
+    "next_available_slot": "9:30 PM",
+    "wait_minutes": 45,
+    "address": "1, Bangalore",
+    "reservation_url": "https://swiggy.com/dineout/reserve/do_1"
+  },
+  {
+    "id": "do_2",
+    "name": "Spice Terrace",
+    "cuisine": "Mediterranean",
+    "rating": 4.1,
+    "avg_cost_for_two": 1444,
+    "tags": [
+      "Casual Dining",
+      "Rooftop"
+    ],
+    "next_available_slot": "7:30 PM",
+    "wait_minutes": 45,
+    "address": "12, Bangalore",
+    "reservation_url": "https://swiggy.com/dineout/reserve/do_2"
+  },
+  {
+    "id": "do_3",
+    "name": "Olive Bar & Kitchen",
+    "cuisine": "North Indian",
+    "rating": 4.4,
+    "avg_cost_for_two": 940,
+    "tags": [
+      "Rooftop",
+      "Live Music"
+    ],
+    "next_available_slot": "7:30 PM",
+    "wait_minutes": 3,
+    "address": "29, Bangalore",
+    "reservation_url": "https://swiggy.com/dineout/reserve/do_3"
+  },
+  {
+    "id": "do_4",
+    "name": "Toit",
+    "cuisine": "Pub Food",
+    "rating": 4.8,
+    "avg_cost_for_two": 2371,
+    "tags": [
+      "Buffet",
+      "Casual Dining"
+    ],
+    "next_available_slot": "6:30 PM",
+    "wait_minutes": 4,
+    "address": "23, Bangalore",
+    "reservation_url": "https://swiggy.com/dineout/reserve/do_4"
+  },
+  {
+    "id": "do_5",
+    "name": "Arbor Brewing Company",
+    "cuisine": "Seafood",
+    "rating": 4,
+    "avg_cost_for_two": 3193,
+    "tags": [
+      "Live Music",
+      "Live Music"
+    ],
+    "next_available_slot": "8:30 PM",
+    "wait_minutes": 2,
+    "address": "35, Bangalore",
+    "reservation_url": "https://swiggy.com/dineout/reserve/do_5"
+  },
+  {
+    "id": "do_6",
+    "name": "Truffles",
+    "cuisine": "Pub Food",
+    "rating": 3.9,
+    "avg_cost_for_two": 1213,
+    "tags": [
+      "Live Music",
+      "Casual Dining"
+    ],
+    "next_available_slot": "8:30 PM",
+    "wait_minutes": 25,
+    "address": "18, Bangalore",
+    "reservation_url": "https://swiggy.com/dineout/reserve/do_6"
+  },
+  {
+    "id": "do_7",
+    "name": "Biergarten",
+    "cuisine": "Continental",
+    "rating": 4.8,
+    "avg_cost_for_two": 903,
+    "tags": [
+      "Buffet",
+      "Date Night"
+    ],
+    "next_available_slot": "8:30 PM",
+    "wait_minutes": 31,
+    "address": "5, Bangalore",
+    "reservation_url": "https://swiggy.com/dineout/reserve/do_7"
+  },
+  {
+    "id": "do_8",
+    "name": "The Fatty Bao",
+    "cuisine": "Asian",
+    "rating": 4.4,
+    "avg_cost_for_two": 1085,
+    "tags": [
+      "Buffet",
+      "Fine Dining"
+    ],
+    "next_available_slot": "9:30 PM",
+    "wait_minutes": 42,
+    "address": "59, Bangalore",
+    "reservation_url": "https://swiggy.com/dineout/reserve/do_8"
+  },
+  {
+    "id": "do_9",
+    "name": "Byg Brewski",
+    "cuisine": "Mediterranean",
+    "rating": 4.1,
+    "avg_cost_for_two": 2336,
+    "tags": [
+      "Fine Dining",
+      "Craft Beer"
+    ],
+    "next_available_slot": "8:30 PM",
+    "wait_minutes": 9,
+    "address": "4, Bangalore",
+    "reservation_url": "https://swiggy.com/dineout/reserve/do_9"
+  },
+  {
+    "id": "do_10",
+    "name": "Farzi Cafe",
+    "cuisine": "Asian",
+    "rating": 4.4,
+    "avg_cost_for_two": 3488,
+    "tags": [
+      "Casual Dining",
+      "Date Night"
+    ],
+    "next_available_slot": "6:30 PM",
+    "wait_minutes": 42,
+    "address": "68, Bangalore",
+    "reservation_url": "https://swiggy.com/dineout/reserve/do_10"
+  },
+  {
+    "id": "do_11",
+    "name": "Windmills Craftworks",
+    "cuisine": "Continental",
+    "rating": 4,
+    "avg_cost_for_two": 2361,
+    "tags": [
+      "Date Night",
+      "Craft Beer"
+    ],
+    "next_available_slot": "6:30 PM",
+    "wait_minutes": 1,
+    "address": "29, Bangalore",
+    "reservation_url": "https://swiggy.com/dineout/reserve/do_11"
+  },
+  {
+    "id": "do_12",
+    "name": "Karavalli",
+    "cuisine": "Seafood",
+    "rating": 4,
+    "avg_cost_for_two": 1716,
+    "tags": [
+      "Live Music",
+      "Live Music"
+    ],
+    "next_available_slot": "7:30 PM",
+    "wait_minutes": 4,
+    "address": "62, Bangalore",
+    "reservation_url": "https://swiggy.com/dineout/reserve/do_12"
+  },
+  {
+    "id": "do_13",
+    "name": "Rim Naam",
+    "cuisine": "Mediterranean",
+    "rating": 4.3,
+    "avg_cost_for_two": 1365,
+    "tags": [
+      "Craft Beer",
+      "Rooftop"
+    ],
+    "next_available_slot": "8:30 PM",
+    "wait_minutes": 20,
+    "address": "71, Bangalore",
+    "reservation_url": "https://swiggy.com/dineout/reserve/do_13"
+  },
+  {
+    "id": "do_14",
+    "name": "Edo Restaurant",
+    "cuisine": "Asian",
+    "rating": 4.2,
+    "avg_cost_for_two": 3297,
+    "tags": [
+      "Live Music",
+      "Live Music"
+    ],
+    "next_available_slot": "6:30 PM",
+    "wait_minutes": 32,
+    "address": "86, Bangalore",
+    "reservation_url": "https://swiggy.com/dineout/reserve/do_14"
+  },
+  {
+    "id": "do_15",
+    "name": "Yauatcha",
+    "cuisine": "Mediterranean",
+    "rating": 4.4,
+    "avg_cost_for_two": 2828,
+    "tags": [
+      "Casual Dining",
+      "Craft Beer"
+    ],
+    "next_available_slot": "9:30 PM",
+    "wait_minutes": 35,
+    "address": "62, Bangalore",
+    "reservation_url": "https://swiggy.com/dineout/reserve/do_15"
+  },
+  {
+    "id": "do_16",
+    "name": "Burma Burma",
+    "cuisine": "Pan-Asian",
+    "rating": 4.5,
+    "avg_cost_for_two": 2728,
+    "tags": [
+      "Fine Dining",
+      "Fine Dining"
+    ],
+    "next_available_slot": "9:30 PM",
+    "wait_minutes": 24,
+    "address": "16, Bangalore",
+    "reservation_url": "https://swiggy.com/dineout/reserve/do_16"
+  },
+  {
+    "id": "do_17",
+    "name": "Oko",
+    "cuisine": "Mediterranean",
+    "rating": 4.4,
+    "avg_cost_for_two": 847,
+    "tags": [
+      "Fine Dining",
+      "Date Night"
+    ],
+    "next_available_slot": "6:30 PM",
+    "wait_minutes": 4,
+    "address": "8, Bangalore",
+    "reservation_url": "https://swiggy.com/dineout/reserve/do_17"
+  },
+  {
+    "id": "do_18",
+    "name": "Sanchez",
+    "cuisine": "Mediterranean",
+    "rating": 3.8,
+    "avg_cost_for_two": 2976,
+    "tags": [
+      "Live Music",
+      "Date Night"
+    ],
+    "next_available_slot": "7:30 PM",
+    "wait_minutes": 12,
+    "address": "47, Bangalore",
+    "reservation_url": "https://swiggy.com/dineout/reserve/do_18"
+  },
+  {
+    "id": "do_19",
+    "name": "Sriracha",
+    "cuisine": "North Indian",
+    "rating": 4.2,
+    "avg_cost_for_two": 1718,
+    "tags": [
+      "Rooftop",
+      "Rooftop"
+    ],
+    "next_available_slot": "6:30 PM",
+    "wait_minutes": 16,
+    "address": "70, Bangalore",
+    "reservation_url": "https://swiggy.com/dineout/reserve/do_19"
+  },
+  {
+    "id": "do_20",
+    "name": "Social",
+    "cuisine": "Seafood",
+    "rating": 4,
+    "avg_cost_for_two": 1471,
+    "tags": [
+      "Rooftop",
+      "Craft Beer"
+    ],
+    "next_available_slot": "7:30 PM",
+    "wait_minutes": 29,
+    "address": "74, Bangalore",
+    "reservation_url": "https://swiggy.com/dineout/reserve/do_20"
+  },
+  {
+    "id": "do_21",
+    "name": "Hard Rock Cafe",
+    "cuisine": "Seafood",
+    "rating": 4.9,
+    "avg_cost_for_two": 1163,
+    "tags": [
+      "Rooftop",
+      "Rooftop"
+    ],
+    "next_available_slot": "7:30 PM",
+    "wait_minutes": 30,
+    "address": "49, Bangalore",
+    "reservation_url": "https://swiggy.com/dineout/reserve/do_21"
+  },
+  {
+    "id": "do_22",
+    "name": "The Black Pearl",
+    "cuisine": "Seafood",
+    "rating": 4.3,
+    "avg_cost_for_two": 3213,
+    "tags": [
+      "Buffet",
+      "Casual Dining"
+    ],
+    "next_available_slot": "9:30 PM",
+    "wait_minutes": 7,
+    "address": "71, Bangalore",
+    "reservation_url": "https://swiggy.com/dineout/reserve/do_22"
+  },
+  {
+    "id": "do_23",
+    "name": "Brahma Brews",
+    "cuisine": "Pan-Asian",
+    "rating": 4.1,
+    "avg_cost_for_two": 1035,
+    "tags": [
+      "Craft Beer",
+      "Casual Dining"
+    ],
+    "next_available_slot": "8:30 PM",
+    "wait_minutes": 3,
+    "address": "80, Bangalore",
+    "reservation_url": "https://swiggy.com/dineout/reserve/do_23"
+  },
+  {
+    "id": "do_24",
+    "name": "Ironhill",
+    "cuisine": "North Indian",
+    "rating": 4.2,
+    "avg_cost_for_two": 1882,
+    "tags": [
+      "Craft Beer",
+      "Date Night"
+    ],
+    "next_available_slot": "9:30 PM",
+    "wait_minutes": 21,
+    "address": "61, Bangalore",
+    "reservation_url": "https://swiggy.com/dineout/reserve/do_24"
+  },
+  {
+    "id": "do_25",
+    "name": "Uru Brewpark",
+    "cuisine": "North Indian",
+    "rating": 3.9,
+    "avg_cost_for_two": 2619,
+    "tags": [
+      "Fine Dining",
+      "Fine Dining"
+    ],
+    "next_available_slot": "6:30 PM",
+    "wait_minutes": 8,
+    "address": "17, Bangalore",
+    "reservation_url": "https://swiggy.com/dineout/reserve/do_25"
+  },
+  {
+    "id": "do_26",
+    "name": "K&K",
+    "cuisine": "North Indian",
+    "rating": 4.8,
+    "avg_cost_for_two": 1384,
+    "tags": [
+      "Casual Dining",
+      "Casual Dining"
+    ],
+    "next_available_slot": "6:30 PM",
+    "wait_minutes": 7,
+    "address": "90, Bangalore",
+    "reservation_url": "https://swiggy.com/dineout/reserve/do_26"
+  },
+  {
+    "id": "do_27",
+    "name": "Toscano",
+    "cuisine": "Pan-Asian",
+    "rating": 4.9,
+    "avg_cost_for_two": 2109,
+    "tags": [
+      "Fine Dining",
+      "Live Music"
+    ],
+    "next_available_slot": "7:30 PM",
+    "wait_minutes": 30,
+    "address": "15, Bangalore",
+    "reservation_url": "https://swiggy.com/dineout/reserve/do_27"
+  },
+  {
+    "id": "do_28",
+    "name": "Fenny's",
+    "cuisine": "Pan-Asian",
+    "rating": 4.4,
+    "avg_cost_for_two": 3414,
+    "tags": [
+      "Fine Dining",
+      "Live Music"
+    ],
+    "next_available_slot": "6:30 PM",
+    "wait_minutes": 29,
+    "address": "40, Bangalore",
+    "reservation_url": "https://swiggy.com/dineout/reserve/do_28"
+  },
+  {
+    "id": "do_29",
+    "name": "The Reservoire",
+    "cuisine": "Mediterranean",
+    "rating": 4.5,
+    "avg_cost_for_two": 1885,
+    "tags": [
+      "Craft Beer",
+      "Rooftop"
+    ],
+    "next_available_slot": "6:30 PM",
+    "wait_minutes": 14,
+    "address": "4, Bangalore",
+    "reservation_url": "https://swiggy.com/dineout/reserve/do_29"
+  },
+  {
+    "id": "do_30",
+    "name": "Bob's Bar",
+    "cuisine": "North Indian",
+    "rating": 4.1,
+    "avg_cost_for_two": 2512,
+    "tags": [
+      "Casual Dining",
+      "Buffet"
+    ],
+    "next_available_slot": "6:30 PM",
+    "wait_minutes": 42,
+    "address": "62, Bangalore",
+    "reservation_url": "https://swiggy.com/dineout/reserve/do_30"
+  }
+]

@@ -18,6 +18,14 @@ import { WORKFLOW_STATUS } from './constants';
 export const getWorkflowStatus = (session) => 
   session?.state?.workflow_status || null;
 
+/**
+ * Get the error message from a session if it exists
+ * @param {Object} session - The session object
+ * @returns {string|null} The error message or null
+ */
+export const getErrorMessage = (session) => 
+  session?.state?.error_message || null;
+
 // ============================================================================
 // Planning Accessors
 // ============================================================================
@@ -78,7 +86,7 @@ export const hasUserChoice = (session) => {
  * @returns {Object|null} The bill object with orders array, message, and grand_total, or null
  */
 export const getOrderConfirmationData = (session) => 
-  session?.state?.ordering?.confirmation?.bill || null;
+  session?.state?.ordering?.confirmation || null;
 
 /**
  * Get just the order confirmation message text
@@ -86,7 +94,7 @@ export const getOrderConfirmationData = (session) =>
  * @returns {string|null} The order confirmation message string or null
  */
 export const getOrderConfirmationMessage = (session) => 
-  session?.state?.ordering?.confirmation?.bill?.message || null;
+  session?.state?.ordering?.confirmation?.message || null;
 
 /**
  * Get the order bill details
@@ -94,7 +102,7 @@ export const getOrderConfirmationMessage = (session) =>
  * @returns {Object|null} The bill object with orders array, message, and grand_total, or null
  */
 export const getOrderBill = (session) => 
-  session?.state?.ordering?.confirmation?.bill || null;
+  session?.state?.ordering?.confirmation || null;
 
 /**
  * Get the orders array from the bill
@@ -102,7 +110,7 @@ export const getOrderBill = (session) =>
  * @returns {Array} The orders array (empty array if none)
  */
 export const getOrdersFromBill = (session) => 
-  session?.state?.ordering?.confirmation?.bill?.orders || [];
+  session?.state?.ordering?.confirmation?.orders || [];
 
 /**
  * Get the grand total from the bill
@@ -110,7 +118,7 @@ export const getOrdersFromBill = (session) =>
  * @returns {number|null} The grand total or null
  */
 export const getGrandTotal = (session) => 
-  session?.state?.ordering?.confirmation?.bill?.grand_total || null;
+  session?.state?.ordering?.confirmation?.grand_total || null;
 
 /**
  * Get the order status array

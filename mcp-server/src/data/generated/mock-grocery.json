@@ -1,0 +1,188 @@
+[
+  {
+    "id": "gro_1",
+    "name": "Aashirvaad Whole Wheat Atta 5kg",
+    "category": "Staples & Atta",
+    "unit_price": 248
+  },
+  {
+    "id": "gro_2",
+    "name": "India Gate Basmati Rice 1kg",
+    "category": "Staples & Atta",
+    "unit_price": 145
+  },
+  {
+    "id": "gro_3",
+    "name": "Fortune Sunflower Oil 1L",
+    "category": "Staples & Atta",
+    "unit_price": 123
+  },
+  {
+    "id": "gro_4",
+    "name": "Tata Salt 1kg",
+    "category": "Staples & Atta",
+    "unit_price": 30
+  },
+  {
+    "id": "gro_5",
+    "name": "Toor Dal 1kg",
+    "category": "Staples & Atta",
+    "unit_price": 158
+  },
+  {
+    "id": "gro_6",
+    "name": "Amul Taaza Milk 500ml",
+    "category": "Dairy & Bread",
+    "unit_price": 27
+  },
+  {
+    "id": "gro_7",
+    "name": "Nandini GoodLife Milk 500ml",
+    "category": "Dairy & Bread",
+    "unit_price": 30
+  },
+  {
+    "id": "gro_8",
+    "name": "Amul Butter 100g",
+    "category": "Dairy & Bread",
+    "unit_price": 56
+  },
+  {
+    "id": "gro_9",
+    "name": "Britannia Whole Wheat Bread 400g",
+    "category": "Dairy & Bread",
+    "unit_price": 43
+  },
+  {
+    "id": "gro_10",
+    "name": "Milky Mist Paneer 200g",
+    "category": "Dairy & Bread",
+    "unit_price": 83
+  },
+  {
+    "id": "gro_11",
+    "name": "Eggs Regular 6 pcs",
+    "category": "Dairy & Bread",
+    "unit_price": 47
+  },
+  {
+    "id": "gro_12",
+    "name": "Maggi 2-Minute Noodles 140g",
+    "category": "Snacks & Beverages",
+    "unit_price": 33
+  },
+  {
+    "id": "gro_13",
+    "name": "Lays India's Magic Masala 50g",
+    "category": "Snacks & Beverages",
+    "unit_price": 18
+  },
+  {
+    "id": "gro_14",
+    "name": "Haldiram's Bhujia Sev 200g",
+    "category": "Snacks & Beverages",
+    "unit_price": 59
+  },
+  {
+    "id": "gro_15",
+    "name": "Coca Cola 750ml",
+    "category": "Snacks & Beverages",
+    "unit_price": 38
+  },
+  {
+    "id": "gro_16",
+    "name": "Tata Tea Gold 500g",
+    "category": "Snacks & Beverages",
+    "unit_price": 323
+  },
+  {
+    "id": "gro_17",
+    "name": "Bru Instant Coffee 50g",
+    "category": "Snacks & Beverages",
+    "unit_price": 100
+  },
+  {
+    "id": "gro_18",
+    "name": "Onion 1kg",
+    "category": "Fruits & Vegetables",
+    "unit_price": 41
+  },
+  {
+    "id": "gro_19",
+    "name": "Tomato Local 1kg",
+    "category": "Fruits & Vegetables",
+    "unit_price": 26
+  },
+  {
+    "id": "gro_20",
+    "name": "Potato 1kg",
+    "category": "Fruits & Vegetables",
+    "unit_price": 30
+  },
+  {
+    "id": "gro_21",
+    "name": "Green Chilli 100g",
+    "category": "Fruits & Vegetables",
+    "unit_price": 19
+  },
+  {
+    "id": "gro_22",
+    "name": "Coriander Leaves 1 bunch",
+    "category": "Fruits & Vegetables",
+    "unit_price": 11
+  },
+  {
+    "id": "gro_23",
+    "name": "Banana Robusta 500g",
+    "category": "Fruits & Vegetables",
+    "unit_price": 27
+  },
+  {
+    "id": "gro_24",
+    "name": "Kissan Fresh Tomato Ketchup 500g",
+    "category": "Sauces & Spices",
+    "unit_price": 90
+  },
+  {
+    "id": "gro_25",
+    "name": "Everest Garam Masala 50g",
+    "category": "Sauces & Spices",
+    "unit_price": 40
+  },
+  {
+    "id": "gro_26",
+    "name": "MDH Kashmiri Red Chilli 100g",
+    "category": "Sauces & Spices",
+    "unit_price": 85
+  },
+  {
+    "id": "gro_27",
+    "name": "Ginger Garlic Paste 100g",
+    "category": "Sauces & Spices",
+    "unit_price": 25
+  },
+  {
+    "id": "gro_28",
+    "name": "Soy Sauce 200ml",
+    "category": "Sauces & Spices",
+    "unit_price": 44
+  },
+  {
+    "id": "gro_29",
+    "name": "Chicken Breast Boneless 500g",
+    "category": "Meat & Seafood",
+    "unit_price": 282
+  },
+  {
+    "id": "gro_30",
+    "name": "Mutton Curry Cut 500g",
+    "category": "Meat & Seafood",
+    "unit_price": 548
+  },
+  {
+    "id": "gro_31",
+    "name": "Prawns (Medium) 250g",
+    "category": "Meat & Seafood",
+    "unit_price": 324
+  }
+]
