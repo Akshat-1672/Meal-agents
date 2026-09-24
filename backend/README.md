@@ -1,6 +1,6 @@
-# AutoNom Backend — Multi-Agent Meal Ordering System
+# FeedMe AI Backend — Multi-Agent Meal Ordering System
 
-A next-generation autonomous multi-agent backend built with **Next.js (App Router)**, **TypeScript**, **Google Gemini 2.5 Flash (`@google/genai`)**, **LangGraph**, and **Drizzle ORM + SQLite**.
+A next-generation feedmeous multi-agent backend built with **Next.js (App Router)**, **TypeScript**, **Google Gemini 2.5 Flash (`@google/genai`)**, **LangGraph**, and **Drizzle ORM + SQLite**.
 
 The backend manages end-to-end meal planning across three Swiggy modalities — **Food Delivery**, **Instamart (Cook at Home)**, and **Dineout** — via real Swiggy Model Context Protocol (MCP) servers, with a human-in-the-loop approval step and automated checkout.
 
@@ -27,7 +27,7 @@ flowchart TD
         SSE["SSE Event Streamer"]
     end
 
-    subgraph Agent_Hierarchy["AutoNom Agent Swarm"]
+    subgraph Agent_Hierarchy["FeedMe AI Agent Swarm"]
         RootAgent["auto_nom_agent\n(Root Coordinator)"]
         MealPlanner["MealPlanner Agent\n(Graph Launcher)"]
         ChoiceVerifier["MealChoiceVerifier\n(Human-in-the-Loop)"]
@@ -238,7 +238,7 @@ backend/
 │   │   └── mcp-tools.ts       # 11 MCP-backed ToolDefinitions (food/dineout/instamart)
 │   └── utils/
 │       └── state.ts           # Finite state machine: WorkflowStatus & isValidTransition()
-├── autonom.db                 # SQLite database (auto-created on first run)
+├── feedme.db                 # SQLite database (auto-created on first run)
 ├── drizzle.config.ts
 ├── package.json
 └── tsconfig.json
@@ -315,7 +315,7 @@ cd mcp-server
 npm install
 npm run dev        # → http://localhost:3001
 
-# Terminal 2 — AutoNom Backend
+# Terminal 2 — FeedMe AI Backend
 cd backend
 npm install
 npm run dev        # → http://localhost:3000

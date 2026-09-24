@@ -1,11 +1,11 @@
 import { useEffect } from 'react';
 import { User, Plus } from 'lucide-react';
 import { useUser } from '../hooks/useUser';
-import { useAutoNom } from '../hooks/useAutoNom';
+import { useFeedMe } from '../hooks/useFeedMe';
 
 const Header = () => {
   const { users, setUsers, currentUserId, selectUser } = useUser();
-  const { fetchUsers } = useAutoNom();
+  const { fetchUsers } = useFeedMe();
 
   useEffect(() => {
     const loadUsers = async () => {
@@ -13,7 +13,7 @@ const Header = () => {
       setUsers(fetchedUsers);
 
       // Load the saved user if it exists
-      const savedUserId = localStorage.getItem('autonom_current_user');
+      const savedUserId = localStorage.getItem('feedme_current_user');
       if (savedUserId && fetchedUsers.find(u => u.user_id === savedUserId)) {
         selectUser(savedUserId);
       } else if (fetchedUsers.length > 0) {
@@ -42,7 +42,7 @@ const Header = () => {
             <User className="text-white" size={20} />
           </div>
           <h1 className="text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-white to-slate-400 hidden sm:block">
-            Auto-Nom
+            FeedMe AI
           </h1>
         </div>
         

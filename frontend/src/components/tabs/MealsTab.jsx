@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { Info } from 'lucide-react';
 import PropTypes from 'prop-types';
 import { useUser } from '../../hooks/useUser';
-import { useAutoNom } from '../../hooks/useAutoNom';
+import { useFeedMe } from '../../hooks/useFeedMe';
 import { useToast } from '../../hooks/useToast';
 import { createLogger } from '../../utils/logger';
 import { INFO_MESSAGES, ERROR_MESSAGES, ICON_SIZES } from '../../utils/uiConstants';
@@ -14,7 +14,7 @@ const logger = createLogger('MealsTab');
 
 const MealsTab = ({ setActiveTab }) => {
   const { currentUser, getCurrentUserId, setActiveSessionId } = useUser();
-  const { triggerPlan } = useAutoNom();
+  const { triggerPlan } = useFeedMe();
   const toast = useToast();
   const [planningMeal, setPlanningMeal] = useState(null);
   const [selectedDay, setSelectedDay] = useState(null);

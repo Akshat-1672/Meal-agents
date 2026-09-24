@@ -3,7 +3,7 @@ import Database from 'better-sqlite3';
 import * as schema from './schema';
 import { eq } from 'drizzle-orm';
 
-const sqlite = new Database('autonom.db');
+const sqlite = new Database('feedme.db');
 export const db = drizzle(sqlite, { schema });
 
 // Seed helper for test users

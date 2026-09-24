@@ -3,7 +3,7 @@ import { createContext, useState, useCallback, useMemo, useEffect } from 'react'
 const UserContext = createContext(null);
 
 export const UserProvider = ({ children }) => {
-  const savedUserId = localStorage.getItem('autonom_current_user');
+  const savedUserId = localStorage.getItem('feedme_current_user');
   const [users, setUsers] = useState([]);
   const [currentUser, setCurrentUser] = useState(null);
   const [currentUserId, setCurrentUserId] = useState(savedUserId);
@@ -29,10 +29,10 @@ export const UserProvider = ({ children }) => {
       const newUserId = `user_${timestamp}`;
       setCurrentUserId(newUserId);
       setCurrentUser(null);
-      localStorage.removeItem('autonom_current_user');
+      localStorage.removeItem('feedme_current_user');
     } else {
       setCurrentUserId(userId);
-      localStorage.setItem('autonom_current_user', userId);
+      localStorage.setItem('feedme_current_user', userId);
     }
   }, []);
 

@@ -89,7 +89,7 @@ export const INFO_MESSAGES = {
   noUser: 'Please select or create a user profile first.',
   noMeals: 'No meal routines configured yet. Please add meal slots in your profile.',
   mealInstructions: 'These are the meal routines configured in your profile. Click "Plan Now" to manually trigger the agent for a specific meal.',
-  noActivity: 'No activity yet. Navigate to the "My Meals" tab and click "Plan Now" on any meal to start the autonomous agent workflow.',
+  noActivity: 'No activity yet. Navigate to the "My Meals" tab and click "Plan Now" on any meal to start the feedmeous agent workflow.',
   noSessions: 'No previous sessions found.',
 };
 

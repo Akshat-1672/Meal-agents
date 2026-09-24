@@ -25,7 +25,7 @@ export async function createAuthenticatedMcpClient(
   });
 
   const client = new Client(
-    { name: 'autonom-meal-engine', version: '1.0.0' },
+    { name: 'feedme-meal-engine', version: '1.0.0' },
     { capabilities: {} }
   );
 

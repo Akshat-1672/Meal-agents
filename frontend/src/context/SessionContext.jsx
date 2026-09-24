@@ -1,6 +1,6 @@
 import { createContext, useEffect, useRef } from 'react';
 import { useUser } from '../hooks/useUser';
-import { useAutoNom } from '../hooks/useAutoNom';
+import { useFeedMe } from '../hooks/useFeedMe';
 import { useStatusStore } from '../stores/statusStore';
 import { WORKFLOW_STATUS, POLLING_INTERVALS, getStatusDisplay } from '../utils/constants';
 import { createLogger } from '../utils/logger';
@@ -19,7 +19,7 @@ const SessionContext = createContext(null);
 
 export const SessionProvider = ({ children }) => {
   const { getCurrentUserId, activeSessionId, setActiveSessionId } = useUser();
-  const { fetchSessionState, fetchUserSessions } = useAutoNom();
+  const { fetchSessionState, fetchUserSessions } = useFeedMe();
   
   const {
     showModal,

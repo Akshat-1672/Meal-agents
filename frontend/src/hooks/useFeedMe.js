@@ -5,9 +5,9 @@ import { transformAPIUserToFrontend, transformFrontendUserToAPI } from '../utils
 import { useLoadingState } from './useLoadingState';
 import { useToast } from './useToast';
 
-const logger = createLogger('useAutoNom');
+const logger = createLogger('useFeedMe');
 
-export const useAutoNom = () => {
+export const useFeedMe = () => {
   const { isLoading: isProcessing, setIsLoading: setIsProcessing } = useLoadingState();
   const [eventLog, setEventLog] = useState([]);
   const [currentSessionId, setCurrentSessionId] = useState(null);

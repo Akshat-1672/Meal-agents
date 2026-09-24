@@ -1,6 +1,6 @@
-# Auto-Nom React Frontend
+# FeedMe AI React Frontend
 
-This is the production-ready React frontend for the Auto-Nom AI Agent dashboard, migrated from the HTML/JS prototype.
+This is the production-ready React frontend for the FeedMe AI AI Agent dashboard, migrated from the HTML/JS prototype.
 
 ## Tech Stack
 
@@ -38,7 +38,7 @@ src/
 │   └── UserContext.jsx            # Global user state management
 ├── hooks/
 │   ├── useUser.js                 # User context hook
-│   └── useAutoNom.js              # API and workflow hooks
+│   └── useFeedMe.js              # API and workflow hooks
 ├── utils/
 │   └── constants.js               # App constants
 ├── App.jsx                        # Main app component

@@ -1,7 +1,7 @@
 import { useContext } from "react";
 import { Info, PartyPopper } from "lucide-react";
 import { useUser } from "../../hooks/useUser";
-import { useAutoNom } from "../../hooks/useAutoNom";
+import { useFeedMe } from "../../hooks/useFeedMe";
 import { useToast } from "../../hooks/useToast";
 import { SessionContext } from "../../context/SessionContext";
 import { useStatusStore } from "../../stores/statusStore";
@@ -28,7 +28,7 @@ const StatusTab = () => {
   const { getCurrentUserId, activeSessionId } = useUser();
   const toast = useToast();
   const sessionContext = useContext(SessionContext);
-  const { submitUserResponse, deleteSession } = useAutoNom();
+  const { submitUserResponse, deleteSession } = useFeedMe();
 
   // Read all state from Zustand store (no polling logic here)
   const {

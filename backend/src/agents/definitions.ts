@@ -116,7 +116,7 @@ export const mealPlanner: LlmAgent = {
   name: 'MealPlanner',
   description: 'Runs the parallel LangGraph scout graph to collect delivery, cook, and dineout options simultaneously, then summarizes results.',
   instruction: (state: SessionState) => `
-    You are the Meal Planner coordinator for AutoNom.
+    You are the Meal Planner coordinator for FeedMe AI.
     Your job is to launch the parallel Swiggy scout graph and collect meal options from all three channels at once.
 
     **USER:** ${state.user_name}
@@ -337,7 +337,7 @@ export const mealOrderExecutor: LlmAgent = {
   name: 'MealOrderExecutor',
   description: 'Executes the final order/reservation/checkout based on user-selected options and the option modality.',
   instruction: (state: SessionState) => `
-    You are the AutoNom Order Executor. Your goal is to complete the checkout for the user's selected meal options.
+    You are the FeedMe AI Order Executor. Your goal is to complete the checkout for the user's selected meal options.
 
     **CONTEXT:**
     - User: ${state.user_name}
@@ -400,9 +400,9 @@ export const mealOrderExecutor: LlmAgent = {
 
 export const rootAgent: LlmAgent = {
   name: 'auto_nom_agent',
-  description: 'The primary coordinator for the AutoNom meal planning state machine.',
+  description: 'The primary coordinator for the FeedMe AI meal planning state machine.',
   instruction: (state: SessionState) => `
-    You are "AutoNom", a helpful, efficient, and reliable meal concierge.
+    You are "FeedMe AI", a helpful, efficient, and reliable meal concierge.
     You manage the complete, end-to-end meal workflow by acting as a State Machine Controller.
 
     **YOUR GOAL:**

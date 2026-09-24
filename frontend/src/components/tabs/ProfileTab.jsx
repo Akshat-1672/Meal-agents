@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { IdCard, Calendar, Clock, Sliders, AlertTriangle, MessageSquare, Save } from 'lucide-react';
 import { useUser } from '../../hooks/useUser';
-import { useAutoNom } from '../../hooks/useAutoNom';
+import { useFeedMe } from '../../hooks/useFeedMe';
 import { useToast } from '../../hooks/useToast';
 import { useLoadingState } from '../../hooks/useLoadingState';
 import { createLogger } from '../../utils/logger';
@@ -17,7 +17,7 @@ import AllergyGrid from '../profile/AllergyGrid';
 
 const ProfileTab = () => {
   const { currentUser, currentUserId, upsertUser, selectUser } = useUser();
-  const { saveUserToAPI } = useAutoNom();
+  const { saveUserToAPI } = useFeedMe();
   const toast = useToast();
   const { isLoading: isSaving, withLoading } = useLoadingState();
   
