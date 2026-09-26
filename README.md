@@ -1,4 +1,4 @@
-# FeedMe AI (formerly Auto-Nom)
+# FeedMe AI
 *An Autonomous Multi-Agent Meal Ordering System*
 
 FeedMe AI is a next-generation autonomous multi-agent system that plans, verifies, and executes your daily meals across three distinct modalities: **Food Delivery**, **Instamart (Cook at Home)**, and **Dineout Reservations**. 
